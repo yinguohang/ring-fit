@@ -118,59 +118,59 @@ world,stage,ingredient_1,ingredient_2,ingredient_3,ingredient_4,ingredient_5
 23,23-3,Chard,Basil,Wheatgrass,Blueberries,Matcha Powder
 23,23-4,Chard,Basil,Wheatgrass,Vanilla Ice Cream,Ashitaba
 23,23-5,Chard,Basil,Wheatgrass,Fig,Pineapple
-24,1-Jan,Spinach,Bananas,Tomato,Lemon,Blueberries
-24,2-Jan,Matcha Powder,Basil,Ashitaba,Fig,Peach
-25,1-Feb,Chard,Basil,Wheatgrass,Vanilla Ice Cream,Ashitaba
-25,2-Feb,Spinach,Bananas,Tomato,Basil,Blueberries
-25,3-Feb,Grapes,Blueberries,Chard,Black Currants,Prunes
-26,1-Mar,Cranberries,Ashitaba,Cinnamon,Lemongrass,Strawberries
-26,2-Mar,Matcha Powder,Vanilla Ice Cream,Ashitaba,Fig,Peach
-26,3-Mar,Milk,Green Tea Leaves,Carbonated Water,Onion,Cress
-26,4-Mar,Kiwi,Pear,Avocado,Celery,Lettuce
-27,1-Apr,Kale,Strawberries,Milk,White Sesame Seeds,Gelatin
-27,2-Apr,Grapes,Green Tea Leaves,Bananas,Chard,Strawberries
-27,3-Apr,Basil,Raspberries,Milk,White Sesame Seeds,Gelatin
-27,4-Apr,Grapes,Green Tea Leaves,Bananas,Wheatgrass,Strawberries
-27,5-Apr,Ashitaba,Raspberries,Milk,White Sesame Seeds,Gelatin
-27,6-Apr,Grapes,Green Tea Leaves,Bananas,Cress,Raspberries
-28,1-May,Arugula,Fennel,Pomegranate,Apple,Onion
-28,2-May,Milk,Carrot,Spinach,Bananas,Green Tea Leaves
-28,3-May,Lemon,Tomato,Fennel,Apple,White Sesame Seeds
-28,4-May,Kale,Carrot,Strawberries,Grapes,Gelatin
-28,5-May,Lemon,Fennel,Pomegranate,Apple,Onion
-28,6-May,Chard,Carrot,Raspberries,Black Currants,Milk
-28,7-May,Wheatgrass,Vine Spinach,Pomegranate,Fennel,Onion
-28,8-May,Carbonated Water,Ashitaba,Strawberries,Bananas,Green Tea Leaves
-30,1-Jul,Milk,Grapes,Carrot,Cress,Onion
-30,2-Jul,Pumpkin,Soy Milk,Black Currants,Blueberries,Prunes
-30,3-Jul,Raisins,Watermelon,Soy Milk,Vine Spinach,Arugula
-31,1-Aug,Bananas,Carbonated Water,Grapes,Yogurt,Spinach
-31,2-Aug,Vinegar,Honey,Apricot,Milk,Black Currants
-31,3-Aug,Soy Milk,Yogurt,Vine Spinach,Blueberries,Kale
-31,4-Aug,Vinegar,Grapes,Apricot,Carrot,Chard
-31,5-Aug,Bananas,Carbonated Water,Apple,Black Currants,Basil
-31,6-Aug,Vinegar,Honey,Vine Spinach,Onion,Pumpkin
-32,1-Sep,Bananas,Wheatgrass,Guava,Yogurt,Honey
-32,2-Sep,Mango,Papaya,Chia Seeds,Strawberries,Carbonated Water
-32,3-Sep,Fennel,Ashitaba,Cherries,Raspberries,Papaya
-32,4-Sep,Mango,Papaya,Chia Seeds,Orange,Strawberries
-32,5-Sep,Raspberries,Cress,Peach,Lemon,Honey
-32,6-Sep,Mango,Papaya,Chia Seeds,Orange,Fennel
-33,1-Oct,Milk,Green Tea Leaves,Carbonated Water,Onion,Arugula
-33,2-Oct,Lemon,Matcha Powder,Vanilla Ice Cream,Melon,Beefsteak Plant
-34,1-Nov,Beefsteak Plant,Spinach,Tatsoi,Melon,Mango
-34,2-Nov,Chard,Basil,Mint,Asparagus,Green Tea Leaves
-34,3-Nov,Carbonated Water,Kale,Lime,Cocoa,Mango
-34,4-Nov,Wheatgrass,Tatsoi,Mint,Asparagus,Green Tea Leaves
-34,5-Nov,Beefsteak Plant,Ashitaba,Lime,Vinegar,Mango
-34,6-Nov,Cress,Arugula,Mango,Asparagus,Beefsteak Plant
-34,7-Nov,Beefsteak Plant,Spinach,Soy Milk,Vinegar,Mango
-35,1-Dec,Milk,Pomegranate,Tatsoi,Blueberries,Apricot
-35,2-Dec,Green Tea Leaves,Almond Milk,Sugar,Kefir Grains,Cocoa
-35,3-Dec,Hojicha Leaves,Watermelon,Kale,Lime,Honey
-35,4-Dec,Milk,Tatsoi,Yogurt,Blueberries,Apricot
-35,5-Dec,Orange,Almond Milk,Green Tea Leaves,Bananas,Cocoa
-35,6-Dec,Lime,Guava,Chard,Basil,Mint
+24,1-1,Spinach,Bananas,Tomato,Lemon,Blueberries
+24,1-2,Matcha Powder,Basil,Ashitaba,Fig,Peach
+25,2-1,Chard,Basil,Wheatgrass,Vanilla Ice Cream,Ashitaba
+25,2-2,Spinach,Bananas,Tomato,Basil,Blueberries
+25,2-3,Grapes,Blueberries,Chard,Black Currants,Prunes
+26,3-1,Cranberries,Ashitaba,Cinnamon,Lemongrass,Strawberries
+26,3-2,Matcha Powder,Vanilla Ice Cream,Ashitaba,Fig,Peach
+26,3-3,Milk,Green Tea Leaves,Carbonated Water,Onion,Cress
+26,3-4,Kiwi,Pear,Avocado,Celery,Lettuce
+27,4-1,Kale,Strawberries,Milk,White Sesame Seeds,Gelatin
+27,4-2,Grapes,Green Tea Leaves,Bananas,Chard,Strawberries
+27,4-3,Basil,Raspberries,Milk,White Sesame Seeds,Gelatin
+27,4-4,Grapes,Green Tea Leaves,Bananas,Wheatgrass,Strawberries
+27,4-5,Ashitaba,Raspberries,Milk,White Sesame Seeds,Gelatin
+27,4-6,Grapes,Green Tea Leaves,Bananas,Cress,Raspberries
+28,5-1,Arugula,Fennel,Pomegranate,Apple,Onion
+28,5-2,Milk,Carrot,Spinach,Bananas,Green Tea Leaves
+28,5-3,Lemon,Tomato,Fennel,Apple,White Sesame Seeds
+28,5-4,Kale,Carrot,Strawberries,Grapes,Gelatin
+28,5-5,Lemon,Fennel,Pomegranate,Apple,Onion
+28,5-6,Chard,Carrot,Raspberries,Black Currants,Milk
+28,5-7,Wheatgrass,Vine Spinach,Pomegranate,Fennel,Onion
+28,5-8,Carbonated Water,Ashitaba,Strawberries,Bananas,Green Tea Leaves
+30,7-1,Milk,Grapes,Carrot,Cress,Onion
+30,7-2,Pumpkin,Soy Milk,Black Currants,Blueberries,Prunes
+30,7-3,Raisins,Watermelon,Soy Milk,Vine Spinach,Arugula
+31,8-1,Bananas,Carbonated Water,Grapes,Yogurt,Spinach
+31,8-2,Vinegar,Honey,Apricot,Milk,Black Currants
+31,8-3,Soy Milk,Yogurt,Vine Spinach,Blueberries,Kale
+31,8-4,Vinegar,Grapes,Apricot,Carrot,Chard
+31,8-5,Bananas,Carbonated Water,Apple,Black Currants,Basil
+31,8-6,Vinegar,Honey,Vine Spinach,Onion,Pumpkin
+32,9-1,Bananas,Wheatgrass,Guava,Yogurt,Honey
+32,9-2,Mango,Papaya,Chia Seeds,Strawberries,Carbonated Water
+32,9-3,Fennel,Ashitaba,Cherries,Raspberries,Papaya
+32,9-4,Mango,Papaya,Chia Seeds,Orange,Strawberries
+32,9-5,Raspberries,Cress,Peach,Lemon,Honey
+32,9-6,Mango,Papaya,Chia Seeds,Orange,Fennel
+33,10-1,Milk,Green Tea Leaves,Carbonated Water,Onion,Arugula
+33,10-2,Lemon,Matcha Powder,Vanilla Ice Cream,Melon,Beefsteak Plant
+34,11-1,Beefsteak Plant,Spinach,Tatsoi,Melon,Mango
+34,11-2,Chard,Basil,Mint,Asparagus,Green Tea Leaves
+34,11-3,Carbonated Water,Kale,Lime,Cocoa,Mango
+34,11-4,Wheatgrass,Tatsoi,Mint,Asparagus,Green Tea Leaves
+34,11-5,Beefsteak Plant,Ashitaba,Lime,Vinegar,Mango
+34,11-6,Cress,Arugula,Mango,Asparagus,Beefsteak Plant
+34,11-7,Beefsteak Plant,Spinach,Soy Milk,Vinegar,Mango
+35,12-1,Milk,Pomegranate,Tatsoi,Blueberries,Apricot
+35,12-2,Green Tea Leaves,Almond Milk,Sugar,Kefir Grains,Cocoa
+35,12-3,Hojicha Leaves,Watermelon,Kale,Lime,Honey
+35,12-4,Milk,Tatsoi,Yogurt,Blueberries,Apricot
+35,12-5,Orange,Almond Milk,Green Tea Leaves,Bananas,Cocoa
+35,12-6,Lime,Guava,Chard,Basil,Mint
 37,14-1,Spinach,Bananas,Wheatgrass,Ashitaba,Dragon Fruit
 37,14-2,Milk,Soy Milk,Honey,Tatsoi,Caramel
 37,14-3,Coffee Beans,Apricot,Corn,Pineapple,Grapefruit
@@ -237,59 +237,59 @@ world,stage,ingredient_1,ingredient_2,ingredient_3,ingredient_4,ingredient_5
 46,23-3,Arugula,Spinach,Kale,Blueberries,Papaya
 46,23-4,Chard,Basil,Pink Grapefruit,Vanilla Ice Cream,Ashitaba
 46,23-5,Wheatgrass,Pink Grapefruit,Cress,Fig,Pineapple
-47,1-Jan,Spinach,Bananas,Tomato,Lemon,Blueberries
-47,2-Jan,Matcha Powder,Basil,Ashitaba,Fig,Peach
-48,1-Feb,Chard,Basil,Wheatgrass,Vanilla Ice Cream,Ashitaba
-48,2-Feb,Spinach,Bananas,Tomato,Basil,Blueberries
-48,3-Feb,Grapes,Blueberries,Chard,Black Currants,Prunes
-49,1-Mar,Cranberries,Ashitaba,Cinnamon,Lemongrass,Strawberries
-49,2-Mar,Matcha Powder,Vanilla Ice Cream,Ashitaba,Fig,Peach
-49,3-Mar,Milk,Green Tea Leaves,Carbonated Water,Onion,Cress
-49,4-Mar,Kiwi,Pear,Avocado,Celery,Lettuce
-50,1-Apr,Kale,Strawberries,Milk,White Sesame Seeds,Gelatin
-50,2-Apr,Grapes,Green Tea Leaves,Bananas,Chard,Strawberries
-50,3-Apr,Basil,Raspberries,Milk,White Sesame Seeds,Gelatin
-50,4-Apr,Grapes,Green Tea Leaves,Bananas,Wheatgrass,Strawberries
-50,5-Apr,Ashitaba,Raspberries,Milk,White Sesame Seeds,Gelatin
-50,6-Apr,Grapes,Green Tea Leaves,Bananas,Cress,Raspberries
-51,1-May,Arugula,Fennel,Pomegranate,Apple,Onion
-51,2-May,Milk,Carrot,Spinach,Bananas,Green Tea Leaves
-51,3-May,Lemon,Tomato,Fennel,Apple,White Sesame Seeds
-51,4-May,Kale,Carrot,Strawberries,Grapes,Gelatin
-51,5-May,Lemon,Fennel,Pomegranate,Apple,Onion
-51,6-May,Chard,Carrot,Raspberries,Black Currants,Milk
-51,7-May,Wheatgrass,Vine Spinach,Pomegranate,Fennel,Onion
-51,8-May,Carbonated Water,Ashitaba,Strawberries,Bananas,Green Tea Leaves
-53,1-Jul,Milk,Grapes,Carrot,Cress,Onion
-53,2-Jul,Pumpkin,Soy Milk,Black Currants,Blueberries,Prunes
-53,3-Jul,Raisins,Watermelon,Soy Milk,Vine Spinach,Arugula
-54,1-Aug,Bananas,Carbonated Water,Grapes,Yogurt,Spinach
-54,2-Aug,Vinegar,Honey,Apricot,Milk,Black Currants
-54,3-Aug,Soy Milk,Yogurt,Vine Spinach,Blueberries,Kale
-54,4-Aug,Vinegar,Grapes,Apricot,Carrot,Chard
-54,5-Aug,Bananas,Carbonated Water,Apple,Black Currants,Basil
-54,6-Aug,Vinegar,Honey,Vine Spinach,Onion,Pumpkin
-55,1-Sep,Bananas,Wheatgrass,Guava,Yogurt,Honey
-55,2-Sep,Mango,Papaya,Chia Seeds,Strawberries,Carbonated Water
-55,3-Sep,Fennel,Ashitaba,Cherries,Raspberries,Papaya
-55,4-Sep,Mango,Papaya,Chia Seeds,Orange,Strawberries
-55,5-Sep,Raspberries,Cress,Peach,Lemon,Honey
-55,6-Sep,Mango,Papaya,Chia Seeds,Orange,Fennel
-56,1-Oct,Milk,Green Tea Leaves,Carbonated Water,Onion,Arugula
-56,2-Oct,Lemon,Matcha Powder,Vanilla Ice Cream,Melon,Beefsteak Plant
-57,1-Nov,Beefsteak Plant,Spinach,Tatsoi,Melon,Mango
-57,2-Nov,Chard,Basil,Mint,Asparagus,Green Tea Leaves
-57,3-Nov,Carbonated Water,Kale,Lime,Cocoa,Mango
-57,4-Nov,Wheatgrass,Tatsoi,Mint,Asparagus,Green Tea Leaves
-57,5-Nov,Beefsteak Plant,Ashitaba,Lime,Vinegar,Mango
-57,6-Nov,Cress,Arugula,Mango,Asparagus,Beefsteak Plant
-57,7-Nov,Beefsteak Plant,Spinach,Soy Milk,Vinegar,Mango
-58,1-Dec,Milk,Pomegranate,Tatsoi,Blueberries,Apricot
-58,2-Dec,Green Tea Leaves,Almond Milk,Sugar,Kefir Grains,Cocoa
-58,3-Dec,Hojicha Leaves,Watermelon,Kale,Lime,Honey
-58,4-Dec,Milk,Tatsoi,Yogurt,Blueberries,Apricot
-58,5-Dec,Orange,Almond Milk,Green Tea Leaves,Bananas,Cocoa
-58,6-Dec,Lime,Guava,Chard,Basil,Mint
+47,1-1,Spinach,Bananas,Tomato,Lemon,Blueberries
+47,1-2,Matcha Powder,Basil,Ashitaba,Fig,Peach
+48,2-1,Chard,Basil,Wheatgrass,Vanilla Ice Cream,Ashitaba
+48,2-2,Spinach,Bananas,Tomato,Basil,Blueberries
+48,2-3,Grapes,Blueberries,Chard,Black Currants,Prunes
+49,3-1,Cranberries,Ashitaba,Cinnamon,Lemongrass,Strawberries
+49,3-2,Matcha Powder,Vanilla Ice Cream,Ashitaba,Fig,Peach
+49,3-3,Milk,Green Tea Leaves,Carbonated Water,Onion,Cress
+49,3-4,Kiwi,Pear,Avocado,Celery,Lettuce
+50,4-1,Kale,Strawberries,Milk,White Sesame Seeds,Gelatin
+50,4-2,Grapes,Green Tea Leaves,Bananas,Chard,Strawberries
+50,4-3,Basil,Raspberries,Milk,White Sesame Seeds,Gelatin
+50,4-4,Grapes,Green Tea Leaves,Bananas,Wheatgrass,Strawberries
+50,4-5,Ashitaba,Raspberries,Milk,White Sesame Seeds,Gelatin
+50,4-6,Grapes,Green Tea Leaves,Bananas,Cress,Raspberries
+51,5-1,Arugula,Fennel,Pomegranate,Apple,Onion
+51,5-2,Milk,Carrot,Spinach,Bananas,Green Tea Leaves
+51,5-3,Lemon,Tomato,Fennel,Apple,White Sesame Seeds
+51,5-4,Kale,Carrot,Strawberries,Grapes,Gelatin
+51,5-5,Lemon,Fennel,Pomegranate,Apple,Onion
+51,5-6,Chard,Carrot,Raspberries,Black Currants,Milk
+51,5-7,Wheatgrass,Vine Spinach,Pomegranate,Fennel,Onion
+51,5-8,Carbonated Water,Ashitaba,Strawberries,Bananas,Green Tea Leaves
+53,7-1,Milk,Grapes,Carrot,Cress,Onion
+53,7-2,Pumpkin,Soy Milk,Black Currants,Blueberries,Prunes
+53,7-3,Raisins,Watermelon,Soy Milk,Vine Spinach,Arugula
+54,8-1,Bananas,Carbonated Water,Grapes,Yogurt,Spinach
+54,8-2,Vinegar,Honey,Apricot,Milk,Black Currants
+54,8-3,Soy Milk,Yogurt,Vine Spinach,Blueberries,Kale
+54,8-4,Vinegar,Grapes,Apricot,Carrot,Chard
+54,8-5,Bananas,Carbonated Water,Apple,Black Currants,Basil
+54,8-6,Vinegar,Honey,Vine Spinach,Onion,Pumpkin
+55,9-1,Bananas,Wheatgrass,Guava,Yogurt,Honey
+55,9-2,Mango,Papaya,Chia Seeds,Strawberries,Carbonated Water
+55,9-3,Fennel,Ashitaba,Cherries,Raspberries,Papaya
+55,9-4,Mango,Papaya,Chia Seeds,Orange,Strawberries
+55,9-5,Raspberries,Cress,Peach,Lemon,Honey
+55,9-6,Mango,Papaya,Chia Seeds,Orange,Fennel
+56,10-1,Milk,Green Tea Leaves,Carbonated Water,Onion,Arugula
+56,10-2,Lemon,Matcha Powder,Vanilla Ice Cream,Melon,Beefsteak Plant
+57,11-1,Beefsteak Plant,Spinach,Tatsoi,Melon,Mango
+57,11-2,Chard,Basil,Mint,Asparagus,Green Tea Leaves
+57,11-3,Carbonated Water,Kale,Lime,Cocoa,Mango
+57,11-4,Wheatgrass,Tatsoi,Mint,Asparagus,Green Tea Leaves
+57,11-5,Beefsteak Plant,Ashitaba,Lime,Vinegar,Mango
+57,11-6,Cress,Arugula,Mango,Asparagus,Beefsteak Plant
+57,11-7,Beefsteak Plant,Spinach,Soy Milk,Vinegar,Mango
+58,12-1,Milk,Pomegranate,Tatsoi,Blueberries,Apricot
+58,12-2,Green Tea Leaves,Almond Milk,Sugar,Kefir Grains,Cocoa
+58,12-3,Hojicha Leaves,Watermelon,Kale,Lime,Honey
+58,12-4,Milk,Tatsoi,Yogurt,Blueberries,Apricot
+58,12-5,Orange,Almond Milk,Green Tea Leaves,Bananas,Cocoa
+58,12-6,Lime,Guava,Chard,Basil,Mint
 60,14-1,Spinach,Bananas,Wheatgrass,Ashitaba,Dragon Fruit
 60,14-2,Milk,Soy Milk,Honey,Tatsoi,Caramel
 60,14-3,Coffee Beans,Apricot,Corn,Pineapple,Grapefruit

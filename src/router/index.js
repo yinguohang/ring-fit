@@ -1,14 +1,20 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
+import SmoothiePage from '../views/SmoothiePage.vue'
+import IngredientLocationPage from '../views/IngredientLocationPage.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: Home
+    name: 'SmoothiePage',
+    component: SmoothiePage
+  },
+  {
+    path: '/ingredient_location',
+    name: 'IngredientLocation',
+    component: IngredientLocationPage
   },
   {
     path: '/about',

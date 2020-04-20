@@ -1,13 +1,19 @@
 <template>
-    $END$
+  <table>
+    <ingredient-location
+      v-for="(ingredientLocation, index) in ingredientLocations"
+      :ingredient-location="ingredientLocation"
+      :key="index">
+    </ingredient-location>
+  </table>
 </template>
 
 <script>
-  export default {
-    name: 'IngredientLocationList'
-  }
+import IngredientLocation from './IngredientLocation'
+
+export default {
+  name: 'IngredientLocationList',
+  components: { IngredientLocation },
+  props: ['ingredientLocations']
+}
 </script>
-
-<style scoped>
-
-</style>

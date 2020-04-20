@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div>
     <SmoothieList :smoothies="smoothies"></SmoothieList>
   </div>
 </template>
@@ -9,14 +9,8 @@ import parse from 'csv-parse/lib/sync'
 import SmoothieList from '@/components/SmoothieList.vue'
 import axios from 'axios'
 
-function loadCSV (fileName, callback) {
-  return axios.get(fileName).then(
-    response => callback(parse(response.data, { from_line: 2, quote: '|' }))
-  )
-}
-
 export default {
-  name: 'Home',
+  name: 'SmoothiePage',
   components: {
     SmoothieList
   },
@@ -27,9 +21,9 @@ export default {
     }
   },
   created: function () {
-    loadCSV(this.publicPath + 'data/smoothie.csv', (data) => {
-      this.smoothies = data
-    })
+    axios.get(this.publicPath + 'data/smoothie.csv').then(
+      response => { this.smoothies = parse(response.data, { from_line: 2, quote: '|' }) }
+    )
   }
 }
 </script>

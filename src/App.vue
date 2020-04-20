@@ -1,12 +1,22 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
+      <router-link to="/">Smoothies</router-link> |
+      <router-link to="/ingredient_location">Ingredient Locations</router-link> |
       <router-link to="/about">About</router-link>
     </div>
+    <ingredient-filter></ingredient-filter>
     <router-view/>
   </div>
 </template>
+
+<script>
+import IngredientFilter from './components/IngredientFilter'
+
+export default {
+  components: { IngredientFilter }
+}
+</script>
 
 <style>
 #app {
