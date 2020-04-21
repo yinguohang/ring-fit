@@ -32,8 +32,9 @@ export default {
     },
     ingredientsReferred: function () {
       const s = new Set()
-      for (const i in this.selectedSmoothies) {
+      for (const i of this.selectedSmoothies) {
         const smoothie = this.smoothies[parseInt(i)]
+        console.log(smoothie)
         s.add(smoothie[2])
         s.add(smoothie[4])
         s.add(smoothie[6])
