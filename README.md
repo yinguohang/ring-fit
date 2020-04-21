@@ -1,5 +1,7 @@
 # ring-fit
 
+![BuildAndDeploy](https://github.com/yinguohang/ring-fit/workflows/BuildAndDeploy/badge.svg)
+
 ## Project setup
 ```
 npm install
