@@ -8,9 +8,13 @@
 import Smoothie from './Smoothie.vue'
 
 export default {
-  props: ['smoothies'],
   components: {
     Smoothie
+  },
+  computed: {
+    smoothies: function () {
+      return this.$store.state.smoothies
+    }
   }
 }
 </script>

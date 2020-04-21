@@ -15,30 +15,57 @@ Vue.use(Vuex)
 const store = new Vuex.Store({
   state: {
     selectedIngredients: [],
-    ingredients: []
+    ingredients: [],
+    selectedSmoothies: [],
+    ingredientsReferred: [],
+    smoothies: []
   },
   mutations: {
+    updateIngredientReferred (state, newVal) {
+      state.ingredientsReferred = newVal
+    },
     updateSelectedIngredients (state, newVal) {
       state.selectedIngredients = newVal
     },
+    updateSelectedSmoothies (state, newVal) {
+      state.selectedSmoothies = newVal
+    },
     updateIngredients (state, newVal) {
       state.ingredients = newVal
+    },
+    updateSmoothies (state, newVal) {
+      state.smoothies = newVal
+    },
+    flipSmoothie (state, newVal) {
+      if (state.selectedSmoothies.includes(newVal)) {
+        state.selectedSmoothies = state.selectedSmoothies.filter(item => item !== newVal)
+      } else {
+        state.selectedSmoothies.push(newVal)
+      }
     }
   },
   actions: {
-    async fetchIngredients (state) {
-      axios.get(process.env.BASE_URL + 'data/ingredient.csv').then(
-        response => {
-          state.commit('updateIngredients', parse(response.data, {
-            from_line: 2,
-            quote: '|'
-          }))
+    async fetchData (state) {
+      axios.all([
+        axios.get(process.env.BASE_URL + 'data/ingredient.csv'),
+        axios.get(process.env.BASE_URL + 'data/smoothie.csv')
+      ]).then(axios.spread((ingredientResponse, smoothieResponse) => {
+        const ingredients = parse(ingredientResponse.data, {
+          from_line: 2,
+          quote: '|'
         })
+        const smoothies = parse(smoothieResponse.data, {
+          from_line: 2,
+          quote: '|'
+        })
+        state.commit('updateIngredients', ingredients)
+        state.commit('updateSmoothies', smoothies)
+      }))
     }
   }
 })
 
-store.dispatch('fetchIngredients')
+store.dispatch('fetchData')
 
 new Vue({
   router,

@@ -1,20 +1,28 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Smoothies</router-link> |
-      <router-link to="/ingredient_location">Ingredient Locations</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <ingredient-filter></ingredient-filter>
+    <el-header>
+      <div id="nav">
+        <router-link to="/">Smoothies</router-link> |
+        <router-link to="/ingredient_location">Ingredient Locations</router-link> |
+        <router-link to="/about">About</router-link>
+      </div>
+    </el-header>
+    <el-main>
+      <el-row :gutter="24">
+        <smoothie-filter></smoothie-filter>
+        <ingredient-filter></ingredient-filter>
+      </el-row>
+    </el-main>
     <router-view/>
   </div>
 </template>
 
 <script>
 import IngredientFilter from './components/IngredientFilter'
+import SmoothieFilter from './components/SmoothieFilter'
 
 export default {
-  components: { IngredientFilter }
+  components: { IngredientFilter, SmoothieFilter }
 }
 </script>
 

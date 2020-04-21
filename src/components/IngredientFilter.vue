@@ -1,12 +1,15 @@
 <template>
-  <el-select v-model="selectedIngredients" multiple filterable>
-    <el-option v-for="ingredient in ingredients"
-               :key="ingredient[0]"
-               :label="ingredient[1]"
-               :value="ingredient[1]">
-      {{ingredient[1]}}
-    </el-option>
-  </el-select>
+  <el-col :sm="24" :xl="8">
+    <el-button icon="el-icon-right" size="small" style="margin-right: 5px" @click="importFromReferred"></el-button>
+    <el-select v-model="selectedIngredients" multiple filterable clearable size="medium">
+      <el-option v-for="ingredient in ingredients"
+                 :key="ingredient[0]"
+                 :label="ingredient[1]"
+                 :value="ingredient[1]">
+        {{ingredient[1]}}
+      </el-option>
+    </el-select>
+  </el-col>
 </template>
 
 <script>
@@ -23,6 +26,11 @@ export default {
     },
     ingredients () {
       return this.$store.state.ingredients
+    }
+  },
+  methods: {
+    importFromReferred () {
+      this.selectedIngredients = this.$store.state.ingredientsReferred
     }
   }
 }
