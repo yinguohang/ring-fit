@@ -7,8 +7,8 @@ id,name,ingredient_1,ingredient_1_count,ingredient_2,ingredient_2_count,ingredie
 5,Apricot Coffee,Coffee Beans,2,Apricot,2,,0,0.0,[Battle] 🤰Attack power⬆️⬆️ + Switches skill color to 🤰,15,World 15 Lower Road Treasure Chest (Yellow Ingredient Recipe).
 6,Apricot Smoothie,Bananas,1,Apricot,2,,0,0.0,[Battle] Switches skill color to 🤰,8,World 8 Talisman Trail Treasure Chest (Apricot Recipe).
 7,Apricot Soda,Carbonated Water,1,Apricot,2,,0,1.5,[Battle] Switches skill color to 🤰,8,World 8 Talisman Trail Treasure Chest (Apricot Recipe).
-8,Arugula Smoothie,Arugula,2,,0,,0,4.5,,13,|World 13 Map Treasure Chest (Ashitaba Smoothie Recipe, Arugula Recipe).|
-9,Ashitaba Smoothie,Bananas,1,Spinach,1,Ashitaba,1,5.0,,13,|World 13 Map Treasure Chest (Ashitaba Smoothie Recipe, Arugula Recipe).|
+8,Arugula Smoothie,Arugula,2,,0,,0,4.5,,13,"World 13 Map Treasure Chest (Ashitaba Smoothie Recipe, Arugula Recipe)."
+9,Ashitaba Smoothie,Bananas,1,Spinach,1,Ashitaba,1,5.0,,13,"World 13 Map Treasure Chest (Ashitaba Smoothie Recipe, Arugula Recipe)."
 10,Asparagus Onion Soup,Onion,1,Asparagus,2,,0,0.0,[Battle] 💮Attack power⬆️ + Defense power⬆️,10,World 10 Fusion Waterway Treasure Chest (Asparagus Recipe).
 11,Asparagus Smoothie,Asparagus,2,Green Tea Leaves,2,,0,0.0,[Battle] 💮Attack power⬆️ + Switches skill color to 💮,10,World 10 Fusion Waterway Treasure Chest (Asparagus Recipe).
 12,Avocado Herb Smoothie,Avocado,2,Cinnamon,2,Lemongrass,1,6.0,[Battle] 💮Attack power⬆️⬆️,20,World 20 Crate Crasher (Light-Green Ingredient Recipe II).
@@ -45,7 +45,7 @@ id,name,ingredient_1,ingredient_1_count,ingredient_2,ingredient_2_count,ingredie
 43,Deep Purple Smoothie,Grapes,2,Black Currants,2,Vine Spinach,2,7.0,[Battle] 🦵Attack power⬆️⬆️ + Switches skill color to 🦵,30,World 30 Swing Gate Treasure Chest (Deep Purple Smoothie Recipe).
 44,Deep Red Smoothie,Strawberries,2,Raspberries,2,Fennel,2,7.0,[Battle] 💪Attack power⬆️⬆️ + Switches skill color to 💪,28,World 28 Exertion River Treasure Chest (Deep Red Smoothie Recipe).
 45,Deep Yellow Smoothie,Bananas,2,Honey,2,Apricot,2,7.0,[Battle] 🤰Attack power⬆️⬆️ + Switches skill color to 🤰,37,World 37 Misty Corridor Treasure Chest (Deep Yellow Smoothie Recipe)
-46,Defense Drink,,0,,0,,0,0.0,Defense +1,49,|No Recipe, Various Rewards, General Store (💰5000, World 49).|
+46,Defense Drink,,0,,0,,0,0.0,Defense +1,49,"No Recipe, Various Rewards, General Store (💰5000, World 49)."
 47,Dragon Drink,Dragon Fruit,5,,0,,0,0.0,Level +1,13,World 13 Squattery Wheel (Dragon Drink Recipe).
 48,Fig Smoothie,Fig,2,Kale,1,,0,0.0,[Battle] 💪Attack power⬆️⬆️ + Recharges skill,18,World 18 Map Treasure Chest (Red Ingredient Recipe I).
 49,French Onion Soup,Onion,2,Cream Cheese,1,,0,0.0,[Course] Prevents monsters from appearing,18,World 18 Shivering Valley Treasure Chest (French Onion Soup Recipe).
@@ -104,8 +104,8 @@ id,name,ingredient_1,ingredient_1_count,ingredient_2,ingredient_2_count,ingredie
 102,Spinach Smoothie,Spinach,2,,0,,0,1.0,,3,Clear World 3 Hopskip Corridor (Spinach Recipe).
 103,Strawberry Shake,Strawberries,3,Vanilla Ice Cream,3,,0,3.5,[Battle] 💪Attack power⬆️⬆️ + Switches skill color to 💪,19,World 19 Ohohwan River Treasure Chest (Red Ingredient Recipe II).
 104,Strawberry Smoothie,Strawberries,3,,0,,0,0.0,[Battle] 💪Attack power⬆️,4,World 4 Sportan Swamp Treasure Chest (Basic Four-Color Recipe).
-105,Strength Drink,,0,,0,,0,0.0,Attack power +1,49,|No Recipe, Various Rewards, General Store (💰5000, World 49).|
-106,Super Arugula Smoothie,Arugula,3,,0,,0,7.0,,13,|World 13 Map Treasure Chest (Ashitaba Smoothie Recipe, Arugula Recipe).|
+105,Strength Drink,,0,,0,,0,0.0,Attack power +1,49,"No Recipe, Various Rewards, General Store (💰5000, World 49)."
+106,Super Arugula Smoothie,Arugula,3,,0,,0,7.0,,13,"World 13 Map Treasure Chest (Ashitaba Smoothie Recipe, Arugula Recipe)."
 107,Super Ashitaba Smoothie,Bananas,2,Spinach,1,Ashitaba,1,11.0,[Battle] Recharges skill,22,World 22 Aerobic Set (Super Ashitaba Smoothie Recipe).
 108,Super Cress Smoothie,Cress,3,,0,,0,4.0,,8,World 8 Crate Crasher (Watercress Smoothie).
 109,Super Kale Smoothie,Kale,3,,0,,0,9.0,[Battle] Cancels negative status effects,18,World 18 Map Treasure Chest (Kale Recipe).

@@ -51,12 +51,10 @@ const store = new Vuex.Store({
         axios.get(process.env.BASE_URL + 'data/smoothie.csv')
       ]).then(axios.spread((ingredientResponse, smoothieResponse) => {
         const ingredients = parse(ingredientResponse.data, {
-          from_line: 2,
-          quote: '|'
+          from_line: 2
         })
         const smoothies = parse(smoothieResponse.data, {
-          from_line: 2,
-          quote: '|'
+          from_line: 2
         })
         state.commit('updateIngredients', ingredients)
         state.commit('updateSmoothies', smoothies)
