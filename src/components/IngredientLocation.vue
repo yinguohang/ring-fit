@@ -1,7 +1,7 @@
 <template>
   <tr>
     <td v-for='(field, index) in ingredientLocation' :key='index' :class="{'unit-selected': selectedIngredients.includes(field)}">
-      {{field}}
+      {{ index &lt; 2 ? field : $t("ingredients[" + $store.state.ingredientEnToID[field]+ "]") }}
     </td>
   </tr>
 

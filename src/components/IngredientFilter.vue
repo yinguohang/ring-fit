@@ -31,6 +31,9 @@ export default {
   methods: {
     importFromReferred () {
       this.selectedIngredients = this.$store.state.ingredientsReferred
+      if (this.$router.currentRoute !== '/ingredient_location') {
+        this.$router.push('/ingredient_location')
+      }
     }
   }
 }

@@ -3,7 +3,7 @@
     <el-row>
       <el-col :sm="24" :xl="8">
         <el-select v-model="selectedSmoothies" multiple filterable clearable size="medium" style="width:100%">
-          <el-option v-for="smoothie in smoothies"
+          <el-option v-for="smoothie in smoothieTexts"
                      :key="smoothie[0]"
                      :label="smoothie[1]"
                      :value="smoothie[0]">
@@ -34,7 +34,6 @@ export default {
       const s = new Set()
       for (const i of this.selectedSmoothies) {
         const smoothie = this.smoothies[parseInt(i)]
-        console.log(smoothie)
         s.add(smoothie[2])
         s.add(smoothie[4])
         s.add(smoothie[6])
@@ -46,6 +45,10 @@ export default {
     },
     smoothies () {
       return this.$store.state.smoothies
+    },
+    smoothieTexts () {
+      return this.$store.state.smoothies.map(
+        x => ([x[0], this.$t('smoothies[' + this.$store.state.smoothieEnToID[x[1]] + ']')]))
     }
   }
 }
