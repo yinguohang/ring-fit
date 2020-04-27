@@ -1,35 +1,55 @@
-id,rgb,difficulty
-0,D9EAD3,-1
-1,D9EAD3,-1
-2,FFF2CC,-1
-3,D9EAD3,-1
-4,D9EAD3,-1
-5,93C47D,-1
-6,D9EAD3,-1
-7,D9EAD3,-1
-8,D9EAD3,-1
-9,F4CCCC,-1
-10,F4CCCC,-1
-11,FFF2CC,-1
-12,FFF2CC,-1
-13,FFD966,-1
-14,FFF2CC,-1
-15,D9EAD3,-1
-16,F4CCCC,-1
-17,F4CCCC,-1
-18,F4CCCC,-1
-19,FFF2CC,-1
-20,F4CCCC,-1
-21,F4CCCC,-1
-22,FFF2CC,-1
-23,F4CCCC,-1
-24,F4CCCC,-1
-25,FFF2CC,-1
-26,F4CCCC,-1
-27,D9EAD3,-1
-28,D9EAD3,-1
-29,D9EAD3,-1
-30,F4CCCC,-1
-31,F4CCCC,-1
-32,93C47D,-1
-33,F4CCCC,-1
+id,rgb,difficulty,description
+0,D9EAD3,1,"8 ingredient orbs before the first encounter, then 9 after along just a running course. It's the first and most basic one, short too."
+1,D9EAD3,1,Maybe ~3 ingredient boxes in a fairly short running level. What you'd expect from just the second level in the game.
+2,FFF2CC,2,"2 ingredients for a mud puddle you knee lift through, 1 ingredient orb before another mud section, then 5 more orbs before your first random encounter. You'll grab ~6 orbs in a running stretch before 2 consecutive swamps. Then you'll grab ~3 orbs before the finish line."
+3,D9EAD3,1,"1~2? ingredient boxes at the start, then 2 in the middle of the level. It's just running and kind of short."
+4,D9EAD3,1,"5 ingredients before the first enemy encounter, if you...
+1. Don't fall down the gap in the bridge.
+It's a quick run after that with a good haul of ingredients."
+5,93C47D,0,"Initial enemy encounter is hard to avoid, but after is a short running stretch (with diverging paths, see below) where you can vacuum up a good amount on ingredients (12?) until the end.
+1. Double jump over the boulder into a cave, rather than breaking it.
+2. Jump on to the wooden ledge than falling below.
+
+Looks to be the best Dragon Fruit location."
+6,D9EAD3,1,"3 ingredient boxes before the first enemy encounter and some jump pads. After is a stack of boxes that has some ingredients before another enemy encounter. Then it's a short run to the finish line, overall short as well."
+7,D9EAD3,1,"4 ingredients you can vacuum before you reach the rowing section. You can then suction in 4 ingredients before you reach a diverging path.
+1. Double jump up to the wooden ledge or fail trying to.
+If you fail, that's ~7 ingredient orbs before a rowing section,"
+8,D9EAD3,1,"Maybe like a good ~12 ingredient orbs before you reach the Overhead Ring Pull. There's 2 orbs after that, but the start for this course is a good run."
+9,F4CCCC,4,"Starts off with an Overhead Side Bend lift, then it's mostly running with a few Squad Hold lifts. You'll end off with another Overhead Side Bend lift to the Victory pose."
+10,F4CCCC,4,"1 ingredient before a lengthy rowing section. 4 ingredients before you reach a couple of squat hold jump pads. 3 more ingredients after the first enemy encounter, and a diverging path follows.
+1. (Double?) jump to reach the ledge.
+If you can't, it's 2 ingredients before some jump pads. Then 3 more ingredients before an awful rowing section where you go uphill towards those two statues with the paddles.
+2 ingredients to be found after that before the Victory Pose."
+11,FFF2CC,2,"3 ingredients before the first enemy encounter. 1 ingredient before a Tree Pose hold, at least for 5-2. 2 ingredients before a rowing section. 6 ingredients before an enemy encounter. 3 more ingredients before the next one, then 1 more before the finish line.
+Not a bad level but if the Slinkbugs consistently shows up that can be a pain, so I'll need more research into each course."
+12,FFF2CC,2,"Starts off with squat trampolines and you don't get your first ingredient box until you meet the diverging path.
+1. Follow the boxes south, rather than jumping up to the platform above. More ingredient boxes, squat jump some more, more ingredient bos, reach a Overhead Ring Pull lift, end of course."
+13,FFD966,3,"Squat swing followed by an ingredient box. Another squat swing followed by an ingredient box, then a rowing section. It drags on a little before you get another squat swing. There's a diverging path if you double jump up to the platform (don't get hit by the spiky wheel on your way up), but there should at least be one ingredient box before another squat swing. Your fourth to fifth (?) ingredient boxes after that until a squat swing trio, right before the finish line.
+Notably, Swing Gate (7-1) gets both Carrots and Onions to make Carrot Soup immediately after you get the recipe for it, but Persimmon farming in 15-3, 17-2, and 19-4 especially is godlike."
+14,FFF2CC,2,"1 ingredient box when you start off, 3 boxes and 2 orbs after the first encounter. A straight forward run, but there's a lot of distance to cover that isn't quick."
+15,D9EAD3,1,4 ingredient orbs before the first encounter. 2 orbs by the first squat swing. 9 ingredient orbs after the second squat swing and before the second encounter. 3 more orbs after that until the finish line. Doesn't seem too offensive of a level.
+16,F4CCCC,4,"Squat rail segment, 2 ingredient boxes, squat rail segment, single ingredient box, enemy encounter. Squat rail segment, 2 ingredient boxes, overhead ring pull, lengthy squat rail segment before the finish. Too many squats/10."
+17,F4CCCC,4,"Really long overhead ring pull segment before you even get your first ingredient box, then squat jump pads up a tower. Repeat. Then you'll scale around a tower with knee lifts for some ingredient boxes at the summit before you stretch the ring over your head again. You'll climb another tower with conveyor belts for more boxes but the three overhead ring pulls are lengthy."
+18,F4CCCC,4,"Overhead Side Bend, Overhead Ring Pull, then you get a couple of ingredient boxes on the trek to the Victory Pose. Lot of beginning filler."
+19,FFF2CC,2,"It's that creative one with the push/pull blocks with ingredients along the way. Just a straight path to run though, but getting the blocks in place to take the right diverging paths need you to slow down to avoid the squat jump pads. Then you knee lift around a tower to more running, and the course overstays its welcome timewise."
+20,F4CCCC,4,"Timed Squat Holds (or you'll lose coins), running and jumping over obstacles, an Overhead Ring Pull that you need to stop to avoid spiky rolling obstacles, no ingredients until after this. Then 2 Overhead Ring Pulls follows. This is the course to use that set that prevents money from dropping in courses."
+21,F4CCCC,4,"3 squat swings, one ingredient box, 2 squat swings, two ingredient boxes, overhead ring pull, then a handful of ingredient boxes followed by 1 sqaut swing. Then you just run for one final squat swing. I don't think the splurge of boxes in the middle justifies the beginning before it."
+22,FFF2CC,2,"6 ingredient orbs until you get to a rowing section. After you're done, you collect ~8 more orbs before another rowing section to the Victory Pose."
+23,F4CCCC,4,"2 Ring-Con Rear Press rail segments before two ingredient boxes and your first encounter. Another Back Press rail segment followed by a Squat rail segment. Then a rowing segment leading to an ingredient box and enemy encounter. Chair Pose hold, ingredient box, Chair Pose hold, ingredient box, Back Press rail segment into the finish line."
+24,F4CCCC,4,"4 ingredients you can vacuum before a flying segment.
+Then another 4 ingredients you can vacuum before a flying segment.
+You'll enter a cave and grab 3 orbs before a diverging path, if you don't double jump over the bridge gap. If you do, that's 3 more ingredients before a flying segment until you finally reach the ending, with 1 more ingredient orb before the Victory Pose."
+25,FFF2CC,2,1 ingredient box before a flying segment. Then it's a running trek with conveyor belts for ~2 ingredient boxes.
+26,F4CCCC,4,"Starts off with a flight segment, but there's ~8 ingredient orbs after and before the diverging path.
+1. Double jump on the ledge above to an Overhead Ring Pull section.
+~4 ingredient orbs after the Overhead Ring Pull if you took the top route until you get to /another/ Overhead Ring Pull segment to the ending.
+You could maybe skip the Overhead Ring Pull if you don't double jump up, but the flight section is bad enough as is."
+27,D9EAD3,1,2 ~ 3? ingredient boxes before an on-rails Ring-Con Rear Press (Back Press) section. Then you get a Squats on-rail section. Then you get a Chair Pose rail section to the ending.
+28,D9EAD3,1,"Running with some double jump platforming to avoid the bottom route, flying section in the middle, then running section for the end. Kind of short, although I didn't count ingredient boxes at all."
+29,D9EAD3,1,"Only running and knee lifts, 4 ingredient boxes before 1st enemy. Little bit of Bootstrap Tower for 3 ingredient boxes before your second enemy, then it's the finish line."
+30,F4CCCC,4,"Flying section. 3 ingredient orbs before first encounter. 1 orb after into another flying section. 4 orbs before another flying section. 2 orbs after that before an enemy if you don't fall down to the bottom path? 1 orb before the final flying section, 2 after before the Victory Pose. Way too much flying, and the last two need you to fight against a wind current."
+31,F4CCCC,4,"Bootstrap Tower, ingredient box, Bootstrap Tower. Couple of ingredient boxes along a running track (with some squat trampolines) until more Bootstrap Tower. Then a flying section into more Bootstrap Tower."
+32,93C47D,0,"4 ingredient boxes on a simple running stretch before you even encounter the first enemy, allowing you to gather ingredients easily by leaving and coming back in.
+After that first enemy is an Overhead Ring Pull rails segment and a flight section until the ending, so don't proceed any farther."
+33,F4CCCC,4,"3 ingredient orbs before a flight section, then 4~5 more after. Maybe a diverging path if you don't jump the bridge gap? Then you Bootstrap Tower to an Overhead Ring Pull, grab 2 more ingredient orbs, and Knee Lift to another Bootstrap Tower while collecting 2 more ingredients."
