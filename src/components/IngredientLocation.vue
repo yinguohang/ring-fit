@@ -1,6 +1,11 @@
 <template>
   <tr>
-    <td v-for='(field, index) in ingredientLocation' :key='index' :class="{'unit-selected': selectedIngredients.includes(field)}">
+    <td v-for='(field, index) in ingredientLocation' :key='index'
+        :class="{
+          'unit-selected':
+            $store.state.ingredientEnToID.hasOwnProperty(field) &&
+            selectedIngredients.includes($store.state.ingredientEnToID[field])
+        }">
       {{ index &lt; 2 ? field : $t("ingredients[" + $store.state.ingredientEnToID[field]+ "]") }}
     </td>
   </tr>

@@ -42,7 +42,9 @@ const store = new Vuex.Store({
     ingredientsReferred: [],
     smoothies: [],
     ingredientEnToID: [],
-    smoothieEnToID: []
+    smoothieEnToID: [],
+    courses: [],
+    stages: []
   },
   mutations: {
     updateIngredientReferred (state, newVal) {
@@ -80,6 +82,12 @@ const store = new Vuex.Store({
         Object.assign({}, ...rawIngredientTrans.map((r) => ({ [r[1]]: r[0] })))
       messages.en.smoothies = rawIngredientTrans.map((r) => r[1])
       messages.zh.smoothies = rawIngredientTrans.map((r) => r[2])
+    },
+    updateCourses (state, courses) {
+      state.courses = courses
+    },
+    updateStages (state, stages) {
+      state.stages = stages
     }
   },
   actions: {
@@ -88,20 +96,28 @@ const store = new Vuex.Store({
         axios.get(process.env.BASE_URL + 'data/ingredient.csv'),
         axios.get(process.env.BASE_URL + 'data/smoothie.csv'),
         axios.get(process.env.BASE_URL + 'data/ingredient_en_zh.csv'),
-        axios.get(process.env.BASE_URL + 'data/smoothie_en_zh.csv')
+        axios.get(process.env.BASE_URL + 'data/smoothie_en_zh.csv'),
+        axios.get(process.env.BASE_URL + 'data/course.csv'),
+        axios.get(process.env.BASE_URL + 'data/stage.csv')
       ]).then(axios.spread((
         ingredientResponse,
         smoothieResponse,
         ingredientTransResponse,
-        smoothieTransResponse) => {
+        smoothieTransResponse,
+        coursesResponse,
+        stageResponse) => {
         const ingredients = parse(ingredientResponse.data, { from_line: 2 })
         const smoothies = parse(smoothieResponse.data, { from_line: 2 })
         const rawIngredientTrans = parse(ingredientTransResponse.data, { from_line: 2 })
         const rawSmoothieTrans = parse(smoothieTransResponse.data, { from_line: 2 })
+        const courses = parse(coursesResponse.data, { from_line: 2 })
+        const stages = parse(stageResponse.data, { from_line: 2 })
         state.commit('updateIngredients', ingredients)
         state.commit('updateSmoothies', smoothies)
         state.commit('updateIngredientTrans', rawIngredientTrans)
         state.commit('updateSmoothieTrans', rawSmoothieTrans)
+        state.commit('updateCourses', courses)
+        state.commit('updateStages', stages)
       }))
     }
   }

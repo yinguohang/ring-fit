@@ -5,7 +5,7 @@
       <el-option v-for="ingredient in ingredients"
                  :key="ingredient[0]"
                  :label="ingredient[1]"
-                 :value="ingredient[1]">
+                 :value="ingredient[0]">
         {{ingredient[1]}}
       </el-option>
     </el-select>
@@ -25,7 +25,9 @@ export default {
       }
     },
     ingredients () {
-      return this.$store.state.ingredients
+      return this.$store.state.ingredients.map(
+        x => ([x[0], this.$t('ingredients[' + this.$store.state.ingredientEnToID[x[1]] + ']')])
+      )
     }
   },
   methods: {

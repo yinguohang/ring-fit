@@ -3,8 +3,7 @@
     <el-header>
       <div id="nav">
         <router-link to="/">{{ $t('message.smoothiePageHeader') }}</router-link> |
-        <router-link to="/ingredient_location">{{ $t('message.ingredientLocationPageHeader') }}</router-link> |
-        <router-link to="/about">About</router-link>
+        <router-link to="/ingredient_location">{{ $t('message.ingredientLocationPageHeader') }}</router-link>
         <single-locale-modifier style="float: right"></single-locale-modifier>
       </div>
     </el-header>

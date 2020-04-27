@@ -31,7 +31,9 @@ export default {
         return this.allIngredientLocations
       }
       return this.allIngredientLocations.filter(
-        ingredientLocation => ingredientLocation.filter(i => this.selectedIngredients.includes(i)).length > 0
+        ingredientLocation => ingredientLocation.filter(
+          i => this.selectedIngredients.includes(this.$store.state.ingredientEnToID[i])
+        ).length > 0
       )
     },
     selectedIngredients: function () {

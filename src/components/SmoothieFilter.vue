@@ -12,7 +12,9 @@
         </el-select>
       </el-col>
       <el-col :sm="24" :xl="16">
-        <el-tag size="small" v-for="i in ingredientsReferred" :key="i" type="warning" class="tag">{{i}}</el-tag>
+        <el-tag size="small" v-for="i in ingredientsReferred" :key="i" type="warning" class="tag">
+          {{$t('ingredients[' + i + ']')}}
+        </el-tag>
       </el-col>
     </el-row>
   </el-col>
@@ -39,7 +41,7 @@ export default {
         s.add(smoothie[6])
       }
       s.delete('')
-      const rtn = [...s]
+      const rtn = [...s].map(x => this.$store.state.ingredientEnToID[x])
       this.$store.commit('updateIngredientReferred', rtn)
       return rtn
     },
@@ -48,7 +50,8 @@ export default {
     },
     smoothieTexts () {
       return this.$store.state.smoothies.map(
-        x => ([x[0], this.$t('smoothies[' + this.$store.state.smoothieEnToID[x[1]] + ']')]))
+        x => ([x[0], this.$t('smoothies[' + this.$store.state.smoothieEnToID[x[1]] + ']')])
+      )
     }
   }
 }
