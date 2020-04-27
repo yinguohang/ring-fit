@@ -1,18 +1,21 @@
 <template>
   <div>
+    <filter-bar/>
     <IngredientLocationList :ingredient-locations="ingredientLocations"></IngredientLocationList>
   </div>
 </template>
 
 <script>
 import parse from 'csv-parse/lib/sync'
-import IngredientLocationList from '@/components/IngredientLocationList.vue'
+import IngredientLocationList from '../components/IngredientLocationList.vue'
+import FilterBar from '../components/FilterBar'
 import axios from 'axios'
 
 export default {
   name: 'ingredient-location-page',
   components: {
-    IngredientLocationList
+    IngredientLocationList,
+    FilterBar
   },
   data: function () {
     return {

@@ -18,13 +18,15 @@ const messages = {
   en: {
     message: {
       smoothiePageHeader: 'Smoothies',
-      ingredientLocationPageHeader: 'Ingredient Locations'
+      ingredientLocationPageHeader: 'Ingredient Locations',
+      coursePageHeader: 'Courses'
     }
   },
   zh: {
     message: {
       smoothiePageHeader: '果汁',
-      ingredientLocationPageHeader: '素材位置'
+      ingredientLocationPageHeader: '素材位置',
+      coursePageHeader: '关卡类型'
     }
   }
 }

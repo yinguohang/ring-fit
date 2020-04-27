@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import SmoothiePage from '../views/SmoothiePage.vue'
 import IngredientLocationPage from '../views/IngredientLocationPage.vue'
+import CoursePage from '../views/CoursePage'
 
 Vue.use(VueRouter)
 
@@ -13,8 +14,13 @@ const routes = [
   },
   {
     path: '/ingredient_location',
-    name: 'IngredientLocation',
+    name: 'IngredientLocationPage',
     component: IngredientLocationPage
+  },
+  {
+    path: '/courses',
+    name: 'CoursePage',
+    component: CoursePage
   }
 ]
 
