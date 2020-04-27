@@ -19,14 +19,24 @@ const messages = {
     message: {
       smoothiePageHeader: 'Smoothies',
       ingredientLocationPageHeader: 'Ingredient Locations',
-      coursePageHeader: 'Courses'
+      coursePageHeader: 'Courses',
+      world: 'World',
+      stageNumber: 'Stage',
+      ingredient: 'Ingredient',
+      course: 'Course',
+      difficulty: 'Difficulty'
     }
   },
   zh: {
     message: {
       smoothiePageHeader: '果汁',
       ingredientLocationPageHeader: '素材位置',
-      coursePageHeader: '关卡类型'
+      coursePageHeader: '关卡类型',
+      world: '世界',
+      stageNumber: '关卡',
+      ingredient: '素材',
+      course: '关卡类型',
+      difficulty: '难度'
     }
   }
 }
@@ -46,7 +56,9 @@ const store = new Vuex.Store({
     ingredientEnToID: [],
     smoothieEnToID: [],
     courses: [],
-    stages: []
+    stages: [],
+    // values should be within [0, 118].
+    stageNumberToID: {}
   },
   mutations: {
     updateIngredientReferred (state, newVal) {
@@ -71,6 +83,12 @@ const store = new Vuex.Store({
         state.selectedSmoothies.push(newVal)
       }
     },
+    updateSmoothieTrans (state, rawIngredientTrans) {
+      state.smoothieEnToID =
+        Object.assign({}, ...rawIngredientTrans.map((r) => ({ [r[1]]: r[0] })))
+      messages.en.smoothies = rawIngredientTrans.map((r) => r[1])
+      messages.zh.smoothies = rawIngredientTrans.map((r) => r[2])
+    },
     updateIngredientTrans (state, rawIngredientTrans) {
       state.ingredientEnToID =
         Object.assign({ '': -1 }, ...rawIngredientTrans.map((r) => ({ [r[1]]: r[0] })))
@@ -79,17 +97,19 @@ const store = new Vuex.Store({
       messages.zh.ingredients = rawIngredientTrans.map((r) => r[2])
       messages.zh.ingredients[-1] = '-'
     },
-    updateSmoothieTrans (state, rawIngredientTrans) {
-      state.smoothieEnToID =
-        Object.assign({}, ...rawIngredientTrans.map((r) => ({ [r[1]]: r[0] })))
-      messages.en.smoothies = rawIngredientTrans.map((r) => r[1])
-      messages.zh.smoothies = rawIngredientTrans.map((r) => r[2])
-    },
     updateCourses (state, courses) {
       state.courses = courses
     },
     updateStages (state, stages) {
       state.stages = stages
+      for (const [i, stage] of stages.entries()) {
+        const number = stage[1]
+        // eslint-disable-next-line no-prototype-builtins
+        if (state.stageNumberToID.hasOwnProperty(number)) {
+          continue
+        }
+        state.stageNumberToID[number] = i
+      }
     }
   },
   actions: {

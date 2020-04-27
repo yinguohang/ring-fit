@@ -18,7 +18,7 @@ const routes = [
     component: IngredientLocationPage
   },
   {
-    path: '/courses',
+    path: '/course',
     name: 'CoursePage',
     component: CoursePage
   }

@@ -1,5 +1,5 @@
 <template>
-  <table>
+  <table style="margin: auto">
     <smoothie v-for="(smoothie, index) in smoothies" :smoothie="smoothie" :key="index"></smoothie>
   </table>
 </template>

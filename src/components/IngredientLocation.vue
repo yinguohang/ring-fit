@@ -8,17 +8,34 @@
         }">
       {{ index &lt; 2 ? field : $t("ingredients[" + $store.state.ingredientEnToID[field]+ "]") }}
     </td>
+    <td>
+      {{ course }}
+    </td>
+    <td>
+      <el-tag :style="{color: '#000000',backgroundColor: '#' + difficultyColor}">{{ difficulty }}</el-tag>
+    </td>
   </tr>
 
 </template>
 
 <script>
-import { mapState } from 'vuex'
-
 export default {
   name: 'IngredientLocation',
   props: ['ingredientLocation'],
-  computed: mapState(['selectedIngredients'])
+  computed: {
+    selectedIngredients () {
+      return this.$store.state.selectedIngredients
+    },
+    course () {
+      return this.$store.state.stages[this.$store.state.stageNumberToID[this.ingredientLocation[1]]][4]
+    },
+    difficulty () {
+      return this.$store.state.courses[this.course][2]
+    },
+    difficultyColor () {
+      return this.$store.state.courses[this.course][1]
+    }
+  }
 }
 </script>
 

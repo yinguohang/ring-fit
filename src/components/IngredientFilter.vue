@@ -1,7 +1,7 @@
 <template>
-  <el-col :sm="24" :xl="8">
+  <el-col :sm="24" :lg="8">
     <el-button icon="el-icon-right" size="small" style="margin-right: 5px" @click="importFromReferred"></el-button>
-    <el-select v-model="selectedIngredients" multiple filterable clearable style="width: calc(100% - 50px)">
+    <el-select v-model="selectedIngredients" multiple filterable clearable style="width: calc(98% - 50px)">
       <el-option v-for="ingredient in ingredients"
                  :key="ingredient[0]"
                  :label="ingredient[1]"

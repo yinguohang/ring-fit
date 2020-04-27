@@ -1,7 +1,7 @@
 <template>
-  <el-col :sm="24" :xl="16">
+  <el-col :sm="24" :lg="16">
     <el-row>
-      <el-col :sm="24" :xl="8">
+      <el-col :sm="24" :lg="8">
         <el-select v-model="selectedSmoothies" multiple filterable clearable size="medium" style="width:100%">
           <el-option v-for="smoothie in smoothieTexts"
                      :key="smoothie[0]"
@@ -11,7 +11,7 @@
           </el-option>
         </el-select>
       </el-col>
-      <el-col :sm="24" :xl="16">
+      <el-col :sm="24" :lg="16">
         <el-tag size="small" v-for="i in ingredientsReferred" :key="i" type="warning" class="tag">
           {{$t('ingredients[' + i + ']')}}
         </el-tag>
