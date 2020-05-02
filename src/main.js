@@ -7,6 +7,7 @@ import Vuex from 'vuex'
 import axios from 'axios'
 import parse from 'csv-parse/lib/sync'
 import VueI18n from 'vue-i18n'
+import { Smoothie } from './models/smoothie'
 
 Vue.config.productionTip = false
 
@@ -24,7 +25,8 @@ const messages = {
       stageNumber: 'Stage',
       ingredient: 'Ingredient',
       course: 'Course',
-      difficulty: 'Difficulty'
+      difficulty: 'Difficulty',
+      ingredientPageHeader: 'Ingredient'
     }
   },
   zh: {
@@ -36,7 +38,8 @@ const messages = {
       stageNumber: '关卡',
       ingredient: '素材',
       course: '关卡类型',
-      difficulty: '难度'
+      difficulty: '难度',
+      ingredientPageHeader: '素材'
     }
   }
 }
@@ -58,7 +61,8 @@ const store = new Vuex.Store({
     courses: [],
     stages: [],
     // values should be within [0, 118].
-    stageNumberToID: {}
+    stageNumberToID: {},
+    selectedIngredient: 0
   },
   mutations: {
     updateIngredientReferred (state, newVal) {
@@ -110,6 +114,9 @@ const store = new Vuex.Store({
         }
         state.stageNumberToID[number] = i
       }
+    },
+    updateSelectedIngredient (state, ingredient) {
+      state.selectedIngredient = ingredient
     }
   },
   actions: {
@@ -135,7 +142,7 @@ const store = new Vuex.Store({
         const courses = parse(coursesResponse.data, { from_line: 2 })
         const stages = parse(stageResponse.data, { from_line: 2 })
         state.commit('updateIngredients', ingredients)
-        state.commit('updateSmoothies', smoothies)
+        state.commit('updateSmoothies', smoothies.map(x => new Smoothie(x)))
         state.commit('updateIngredientTrans', rawIngredientTrans)
         state.commit('updateSmoothieTrans', rawSmoothieTrans)
         state.commit('updateCourses', courses)

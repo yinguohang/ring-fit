@@ -36,9 +36,9 @@ export default {
       const s = new Set()
       for (const i of this.selectedSmoothies) {
         const smoothie = this.smoothies[parseInt(i)]
-        s.add(smoothie[2])
-        s.add(smoothie[4])
-        s.add(smoothie[6])
+        s.add(smoothie.ingredients[0].name)
+        s.add(smoothie.ingredients[1].name)
+        s.add(smoothie.ingredients[2].name)
       }
       s.delete('')
       const rtn = [...s].map(x => this.$store.state.ingredientEnToID[x])
@@ -50,7 +50,7 @@ export default {
     },
     smoothieTexts () {
       return this.$store.state.smoothies.map(
-        x => ([x[0], this.$t('smoothies[' + this.$store.state.smoothieEnToID[x[1]] + ']')])
+        x => ([x.id, this.$t('smoothies[' + x.id + ']')])
       )
     }
   }

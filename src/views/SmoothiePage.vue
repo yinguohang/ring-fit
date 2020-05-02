@@ -1,7 +1,7 @@
 <template>
   <div>
     <filter-bar/>
-    <SmoothieList></SmoothieList>
+    <SmoothieList :smoothies="$store.state.smoothies"></SmoothieList>
   </div>
 </template>
 

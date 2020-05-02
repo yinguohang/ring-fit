@@ -11,10 +11,6 @@ export default {
   components: {
     Smoothie
   },
-  computed: {
-    smoothies: function () {
-      return this.$store.state.smoothies
-    }
-  }
+  props: ['smoothies']
 }
 </script>
