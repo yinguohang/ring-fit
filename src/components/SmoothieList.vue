@@ -1,16 +1,50 @@
 <template>
-  <table style="margin: auto">
-    <smoothie v-for="(smoothie, index) in smoothies" :smoothie="smoothie" :key="index"></smoothie>
-  </table>
+  <el-table :data="smoothieParsed" style="margin: auto">
+    <el-table-column
+      :label="$t('message.name')"
+      prop="name"
+      sortable>
+    </el-table-column>
+    <el-table-column v-for="i in 3"
+                     :key="i"
+                     :label="$t('message.ingredient') + i"
+                     :prop="'ingredient' + i">
+    </el-table-column>
+    <el-table-column :label="$t('message.recovery')" prop="recovery" sortable></el-table-column>
+    <el-table-column :label="$t('message.effect')" prop="effect"></el-table-column>
+    <el-table-column :label="$t('message.world')" prop="world" sortable></el-table-column>
+    <el-table-column :label="$t('message.description')" prop="description"></el-table-column>
+  </el-table>
 </template>
 
 <script>
-import Smoothie from './Smoothie.vue'
-
 export default {
-  components: {
-    Smoothie
+  props: ['smoothies'],
+  methods: {
+    ingredientCountToText (ic) {
+      if (ic.name.length === 0) {
+        return ''
+      }
+      const id = this.$store.state.ingredientEnToID[ic.name]
+      const name = this.$t('ingredients[' + id + ']')
+      return name + ' x ' + ic.count
+    }
   },
-  props: ['smoothies']
+  computed: {
+    smoothieParsed: function () {
+      return this.smoothies.map(smoothie => {
+        return {
+          name: this.$t('smoothies[' + this.$store.state.smoothieEnToID[smoothie.name] + ']'),
+          ingredient1: this.ingredientCountToText(smoothie.ingredients[0]),
+          ingredient2: this.ingredientCountToText(smoothie.ingredients[1]),
+          ingredient3: this.ingredientCountToText(smoothie.ingredients[2]),
+          recovery: smoothie.recovery,
+          effect: smoothie.effect,
+          world: smoothie.world,
+          description: smoothie.description
+        }
+      })
+    }
+  }
 }
 </script>

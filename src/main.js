@@ -26,7 +26,11 @@ const messages = {
       ingredient: 'Ingredient',
       course: 'Course',
       difficulty: 'Difficulty',
-      ingredientPageHeader: 'Ingredient'
+      ingredientPageHeader: 'Ingredient',
+      name: 'Name',
+      recovery: 'Recovery',
+      effect: 'Effect',
+      description: 'Description'
     }
   },
   zh: {
@@ -39,7 +43,11 @@ const messages = {
       ingredient: '素材',
       course: '关卡类型',
       difficulty: '难度',
-      ingredientPageHeader: '素材'
+      ingredientPageHeader: '素材',
+      name: '名称',
+      recovery: '回复量',
+      effect: '效果',
+      description: '获取方式'
     }
   }
 }

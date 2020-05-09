@@ -24,7 +24,7 @@ export class Smoothie {
     ]
     this.recovery = rawArray[8]
     this.effect = rawArray[9]
-    this.world = rawArray[10]
+    this.world = parseInt(rawArray[10])
     this.description = rawArray[11]
   }
 }
