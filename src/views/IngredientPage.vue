@@ -1,8 +1,10 @@
 <template>
   <el-container>
     <el-container>
-      <el-aside width="150px">
-        <ingredient-list></ingredient-list>
+      <el-aside width="150px" style="height: calc(100vh - 85px);">
+        <el-scrollbar style="height: 100%; overflow-x: hidden">
+          <ingredient-list></ingredient-list>
+        </el-scrollbar>
       </el-aside>
       <el-main>
         <ingredient-detail></ingredient-detail>
@@ -25,6 +27,8 @@ export default {
 }
 </script>
 
-<style scoped>
-
+<style>
+.el-scrollbar__wrap {
+  overflow-x:hidden !important;
+}
 </style>
