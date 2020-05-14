@@ -1,5 +1,5 @@
 <template>
-  <table style="margin: auto">
+  <table style="margin: auto; width: 100%">
     <course v-for="(course, index) in courses" :course="course" :key="index"></course>
   </table>
 </template>

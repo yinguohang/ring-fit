@@ -1,7 +1,7 @@
 <template>
   <el-container>
     <el-container>
-      <el-aside width="150px" style="height: calc(100vh - 85px);">
+      <el-aside width="100px" style="height: calc(100vh - 85px);">
         <el-scrollbar style="height: 100%; overflow-x: hidden">
           <ingredient-list></ingredient-list>
         </el-scrollbar>

@@ -7,7 +7,7 @@
         <router-link to="/course">{{ $t('message.coursePageHeader') }}</router-link> |
         <router-link to="/ingredient/0">{{ $t('message.ingredientPageHeader') }}</router-link> |
         <router-link to="/world_map">{{ $t('message.worldMapPageHeader') }}</router-link>
-        <single-locale-modifier style="float: right"></single-locale-modifier>
+        <single-locale-modifier style="padding-top: 5px; float: right"></single-locale-modifier>
       </div>
     </el-header>
     <router-view/>
@@ -32,7 +32,7 @@ export default {
 }
 
 #nav {
-  padding: 30px;
+  padding: 10px;
 }
 
 #nav a {

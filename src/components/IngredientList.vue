@@ -4,7 +4,8 @@
     <el-menu-item
       :index="String(index)"
       v-for="(ingredient, index) in $store.state.ingredients"
-      :key="index">{{ $t("ingredients[" + index + "]") }}</el-menu-item>
+      :key="index"
+      style="padding: 0px; text-align: center">{{ $t("ingredients[" + index + "]") }}</el-menu-item>
   </el-menu>
 </template>
 
@@ -21,6 +22,5 @@ export default {
 }
 </script>
 
-<style scoped>
-
+<style>
 </style>
