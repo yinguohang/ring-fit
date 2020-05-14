@@ -19,7 +19,7 @@
           :class="{
           'unit-selected':
             $store.state.ingredientEnToID.hasOwnProperty(scope.row['ingredient' + i]) &&
-            $store.state.selectedIngredients.includes($store.state.ingredientEnToID[scope.row['ingredient' + i]])
+            highlightedIngredients.includes($store.state.ingredientEnToID[scope.row['ingredient' + i]])
           }"
         >
           {{ $t("ingredients[" + $store.state.ingredientEnToID[scope.row["ingredient" + i]]+ "]") }}
@@ -49,19 +49,20 @@ import { mapState } from 'vuex'
 
 export default {
   name: 'IngredientLocationList',
-  props: ['ingredientLocations'],
+  props: ['ingredientLocations', 'highlightedIngredients'],
   computed: {
     ingredientLocationsParsed: function () {
-      return this.ingredientLocations.map(raw => {
-        const course = this.stages[this.stageNumberToID[raw[1]]][4]
+      return this.ingredientLocations.map(ingredientLocation => {
+        const stageID = this.stageNumberToID[ingredientLocation.stageNumber]
+        const course = this.stages[stageID][4]
         return {
-          world: parseInt(raw[0]),
-          stageNumber: raw[1],
-          ingredient1: raw[2],
-          ingredient2: raw[3],
-          ingredient3: raw[4],
-          ingredient4: raw[5],
-          ingredient5: raw[6],
+          world: ingredientLocation.world,
+          stageNumber: ingredientLocation.stageNumber,
+          ingredient1: ingredientLocation.ingredients[0],
+          ingredient2: ingredientLocation.ingredients[1],
+          ingredient3: ingredientLocation.ingredients[2],
+          ingredient4: ingredientLocation.ingredients[3],
+          ingredient5: ingredientLocation.ingredients[4],
           course: course,
           difficulty: this.courses[course][2],
           difficultyColor: this.courses[course][1]

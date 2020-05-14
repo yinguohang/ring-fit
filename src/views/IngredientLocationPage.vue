@@ -1,15 +1,15 @@
 <template>
   <div>
     <filter-bar/>
-    <IngredientLocationList :ingredient-locations="ingredientLocations"></IngredientLocationList>
+    <IngredientLocationList
+      :ingredient-locations="ingredientLocations"
+      :highlighted-ingredients="$store.state.selectedIngredients"></IngredientLocationList>
   </div>
 </template>
 
 <script>
-import parse from 'csv-parse/lib/sync'
 import IngredientLocationList from '../components/IngredientLocationList.vue'
 import FilterBar from '../components/FilterBar'
-import axios from 'axios'
 
 export default {
   name: 'ingredient-location-page',
@@ -17,24 +17,16 @@ export default {
     IngredientLocationList,
     FilterBar
   },
-  data: function () {
-    return {
-      publicPath: process.env.BASE_URL,
-      allIngredientLocations: []
-    }
-  },
-  created: function () {
-    axios.get(this.publicPath + 'data/ingredient_location.csv').then(
-      response => { this.allIngredientLocations = parse(response.data, { from_line: 2, quote: '|' }) }
-    )
-  },
   computed: {
+    allIngredientLocations () {
+      return this.$store.state.ingredientLocations
+    },
     ingredientLocations: function () {
       if (this.selectedIngredients.length === 0) {
         return this.allIngredientLocations
       }
       return this.allIngredientLocations.filter(
-        ingredientLocation => ingredientLocation.filter(
+        ingredientLocation => ingredientLocation.ingredients.filter(
           i => this.selectedIngredients.includes(this.$store.state.ingredientEnToID[i])
         ).length > 0
       )

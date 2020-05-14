@@ -8,6 +8,7 @@ import axios from 'axios'
 import parse from 'csv-parse/lib/sync'
 import VueI18n from 'vue-i18n'
 import { Smoothie } from './models/smoothie'
+import { IngredientLocation } from './models/ingredientLocation'
 
 Vue.config.productionTip = false
 
@@ -70,7 +71,8 @@ const store = new Vuex.Store({
     stages: [],
     // values should be within [0, 118].
     stageNumberToID: {},
-    selectedIngredient: 0
+    selectedIngredient: 0,
+    ingredientLocations: []
   },
   mutations: {
     updateIngredientReferred (state, newVal) {
@@ -125,6 +127,9 @@ const store = new Vuex.Store({
     },
     updateSelectedIngredient (state, ingredient) {
       state.selectedIngredient = ingredient
+    },
+    updateIngredientLocations (state, newVal) {
+      state.ingredientLocations = newVal
     }
   },
   actions: {
@@ -135,26 +140,30 @@ const store = new Vuex.Store({
         axios.get(process.env.BASE_URL + 'data/ingredient_en_zh.csv'),
         axios.get(process.env.BASE_URL + 'data/smoothie_en_zh.csv'),
         axios.get(process.env.BASE_URL + 'data/course.csv'),
-        axios.get(process.env.BASE_URL + 'data/stage.csv')
+        axios.get(process.env.BASE_URL + 'data/stage.csv'),
+        axios.get(process.env.BASE_URL + 'data/ingredient_location.csv')
       ]).then(axios.spread((
         ingredientResponse,
         smoothieResponse,
         ingredientTransResponse,
         smoothieTransResponse,
         coursesResponse,
-        stageResponse) => {
+        stageResponse,
+        ingredientLocationResponse) => {
         const ingredients = parse(ingredientResponse.data, { from_line: 2 })
         const smoothies = parse(smoothieResponse.data, { from_line: 2 })
         const rawIngredientTrans = parse(ingredientTransResponse.data, { from_line: 2 })
         const rawSmoothieTrans = parse(smoothieTransResponse.data, { from_line: 2 })
         const courses = parse(coursesResponse.data, { from_line: 2 })
         const stages = parse(stageResponse.data, { from_line: 2 })
+        const ingredientLocations = parse(ingredientLocationResponse.data, { from_line: 2 })
         state.commit('updateIngredients', ingredients)
         state.commit('updateSmoothies', smoothies.map(x => new Smoothie(x)))
         state.commit('updateIngredientTrans', rawIngredientTrans)
         state.commit('updateSmoothieTrans', rawSmoothieTrans)
         state.commit('updateCourses', courses)
         state.commit('updateStages', stages)
+        state.commit('updateIngredientLocations', ingredientLocations.map(x => new IngredientLocation(x)))
       }))
     }
   }
