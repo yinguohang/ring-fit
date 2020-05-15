@@ -4,6 +4,17 @@
     @row-click="flip"
     :row-class-name="getRowClass"
     style="margin: auto">
+    <el-table-column>
+      <template slot-scope="scope">
+        <div>
+          <el-button
+            circle
+            :type="starredSmoothies.includes(scope.row.id) ? 'warning' : 'default'"
+            :class="starredSmoothies.includes(scope.row.id) ? 'el-icon-star-on' : 'el-icon-star-off'"
+            @click.stop="flipStar(scope.row)"></el-button>
+        </div>
+      </template>
+    </el-table-column>
     <el-table-column
       :label="$t('message.name')"
       prop="name"
@@ -24,6 +35,11 @@
 <script>
 export default {
   props: ['smoothies'],
+  data: function () {
+    return {
+      starredSmoothies: this.$storage.get('starredSmoothies', [])
+    }
+  },
   methods: {
     ingredientCountToText (ic) {
       if (ic.name.length === 0) {
@@ -38,6 +54,14 @@ export default {
     },
     flip (row) {
       this.$store.commit('flipSmoothie', row.id)
+    },
+    flipStar (row) {
+      if (this.starredSmoothies.includes(row.id)) {
+        this.starredSmoothies = this.starredSmoothies.filter(v => v !== row.id)
+      } else {
+        this.starredSmoothies.push(row.id)
+      }
+      this.$storage.set('starredSmoothies', this.starredSmoothies)
     }
   },
   computed: {

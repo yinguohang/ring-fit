@@ -1,5 +1,16 @@
 <template>
   <el-table :data="ingredientLocationsParsed" style="margin: auto">
+    <el-table-column>
+      <template slot-scope="scope">
+        <div>
+          <el-button
+            circle
+            :type="starredStages.includes(scope.row.id) ? 'warning' : 'default'"
+            :class="starredStages.includes(scope.row.id) ? 'el-icon-star-on' : 'el-icon-star-off'"
+            @click.stop="flipStar(scope.row)"></el-button>
+        </div>
+      </template>
+    </el-table-column>
     <el-table-column
       :label="$t('message.world')"
       prop="world"
@@ -50,12 +61,28 @@ import { mapState } from 'vuex'
 export default {
   name: 'IngredientLocationList',
   props: ['ingredientLocations', 'highlightedIngredients'],
+  data: function () {
+    return {
+      starredStages: this.$storage.get('starredStages', [])
+    }
+  },
+  methods: {
+    flipStar (row) {
+      if (this.starredStages.includes(row.id)) {
+        this.starredStages = this.starredStages.filter(v => v !== row.id)
+      } else {
+        this.starredStages.push(row.id)
+      }
+      this.$storage.set('starredStages', this.starredStages)
+    }
+  },
   computed: {
     ingredientLocationsParsed: function () {
       return this.ingredientLocations.map(ingredientLocation => {
         const stageID = this.stageNumberToID[ingredientLocation.stageNumber]
         const course = this.stages[stageID][4]
         return {
+          id: ingredientLocation.world + '|' + ingredientLocation.stageNumber,
           world: ingredientLocation.world,
           stageNumber: ingredientLocation.stageNumber,
           ingredient1: ingredientLocation.ingredients[0],

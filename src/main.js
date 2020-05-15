@@ -9,6 +9,7 @@ import parse from 'csv-parse/lib/sync'
 import VueI18n from 'vue-i18n'
 import { Smoothie } from './models/smoothie'
 import { IngredientLocation } from './models/ingredientLocation'
+import { Vue2Storage } from 'vue2-storage'
 
 Vue.config.productionTip = false
 
@@ -172,6 +173,12 @@ const store = new Vuex.Store({
 })
 
 store.dispatch('fetchData')
+
+Vue.use(Vue2Storage, {
+  prefix: 'app_',
+  driver: 'local',
+  ttl: 0 // forever
+})
 
 new Vue({
   router,
