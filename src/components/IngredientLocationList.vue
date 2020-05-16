@@ -34,6 +34,10 @@
           }"
         >
           {{ $t("ingredients[" + $store.state.ingredientEnToID[scope.row["ingredient" + i]]+ "]") }}
+          <el-button circle type="warning" size="mini"
+                     v-if="$store.state.ingredientEnToID.hasOwnProperty(scope.row['ingredient' + i]) && $store.state.ingredientPrice.hasOwnProperty($store.state.ingredientEnToID[scope.row['ingredient' + i]])">
+            {{ $store.state.ingredientPrice[$store.state.ingredientEnToID[scope.row['ingredient' + i]]] }}
+          </el-button>
         </div>
       </template>
     </el-table-column>
@@ -82,7 +86,7 @@ export default {
         const stageID = this.stageNumberToID[ingredientLocation.stageNumber]
         const course = this.stages[stageID][4]
         return {
-          id: ingredientLocation.world + '|' + ingredientLocation.stageNumber,
+          id: ingredientLocation.id,
           world: ingredientLocation.world,
           stageNumber: ingredientLocation.stageNumber,
           ingredient1: ingredientLocation.ingredients[0],

@@ -10,9 +10,11 @@
   "dependencies": {
     "axios": "^0.19.2",
     "core-js": "^3.6.4",
+    "css-loader": "^3.5.3",
     "csv": "^5.3.2",
     "element-ui": "^2.13.1",
     "es6-promise": "^4.2.8",
+    "style-loader": "^1.2.1",
     "vue": "^2.6.11",
     "vue-i18n": "^8.17.3",
     "vue-router": "^3.1.6",

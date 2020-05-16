@@ -9,7 +9,9 @@
 </template>
 
 <script>
-const worldImageCounts = [1, 1, 1, 2, 2, 2, 1, 2, 2, 2, 2, 1, 1, 2, 2, 2, 2, 1, 2, 2, 2, 2, 2]
+import data from '@/assets/data.json'
+
+const worldImageCounts = data.worldImageCounts
 
 export default {
   name: 'WorldMapPage.vue',

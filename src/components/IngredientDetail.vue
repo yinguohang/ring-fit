@@ -3,6 +3,12 @@
     <p>ID: {{ ingredient.id }}</p>
     <p>English Name: {{ ingredient.nameEn }}</p>
     <p>中文名称: {{ ingredient.nameZh }}</p>
+    <p v-if="$store.state.ingredientPrice.hasOwnProperty(ingredient.id)">
+      Coins:
+      <el-button circle type="warning" size="mini">
+        {{ $store.state.ingredientPrice[ingredient.id] }}
+      </el-button>
+    </p>
     <p class="segment-header">{{ $t('message.smoothiePageHeader') }}</p>
     <smoothie-list :smoothies="ingredient.smoothies"></smoothie-list>
     <p class="segment-header">{{ $t('message.ingredientLocationPageHeader') }}</p>
@@ -51,11 +57,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-.segment-header {
-  text-align: center;
-  font-weight: bold;
-  background: #DDDDDD;
-}
-</style>

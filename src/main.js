@@ -11,6 +11,8 @@ import { Smoothie } from './models/smoothie'
 import { IngredientLocation } from './models/ingredientLocation'
 import { Vue2Storage } from 'vue2-storage'
 
+require('@/assets/common.css')
+
 Vue.config.productionTip = false
 
 Vue.use(ElementUI)
@@ -25,6 +27,7 @@ const messages = {
       coursePageHeader: 'Courses',
       ingredientPageHeader: 'Ingredient',
       worldMapPageHeader: 'World Map',
+      starredPageHeader: 'Starred',
       world: 'World',
       stageNumber: 'Stage',
       ingredient: 'Ingredient',
@@ -43,6 +46,7 @@ const messages = {
       coursePageHeader: '关卡类型',
       ingredientPageHeader: '素材',
       worldMapPageHeader: '世界地图',
+      starredPageHeader: '收藏',
       world: '世界',
       stageNumber: '关卡',
       ingredient: '素材',
@@ -75,7 +79,8 @@ const store = new Vuex.Store({
     // values should be within [0, 118].
     stageNumberToID: {},
     selectedIngredient: 0,
-    ingredientLocations: []
+    ingredientLocations: [],
+    ingredientPrice: {}
   },
   mutations: {
     updateIngredientReferred (state, newVal) {
@@ -133,6 +138,14 @@ const store = new Vuex.Store({
     },
     updateIngredientLocations (state, newVal) {
       state.ingredientLocations = newVal
+    },
+    updateIngredientPrice (state, ingredientPrice) {
+      state.ingredientPrice = {}
+      for (let i = 0; i < ingredientPrice.length; i++) {
+        const coins = ingredientPrice[i][0]
+        const id = state.ingredientEnToID[ingredientPrice[i][1]]
+        state.ingredientPrice[id] = coins
+      }
     }
   },
   actions: {
@@ -144,7 +157,8 @@ const store = new Vuex.Store({
         axios.get(process.env.BASE_URL + 'data/smoothie_en_zh.csv'),
         axios.get(process.env.BASE_URL + 'data/course.csv'),
         axios.get(process.env.BASE_URL + 'data/stage.csv'),
-        axios.get(process.env.BASE_URL + 'data/ingredient_location.csv')
+        axios.get(process.env.BASE_URL + 'data/ingredient_location.csv'),
+        axios.get(process.env.BASE_URL + 'data/ingredient_price.csv')
       ]).then(axios.spread((
         ingredientResponse,
         smoothieResponse,
@@ -152,7 +166,8 @@ const store = new Vuex.Store({
         smoothieTransResponse,
         coursesResponse,
         stageResponse,
-        ingredientLocationResponse) => {
+        ingredientLocationResponse,
+        ingredientPriceResponse) => {
         const ingredients = parse(ingredientResponse.data, { from_line: 2 })
         const smoothies = parse(smoothieResponse.data, { from_line: 2 })
         const rawIngredientTrans = parse(ingredientTransResponse.data, { from_line: 2 })
@@ -160,6 +175,7 @@ const store = new Vuex.Store({
         const courses = parse(coursesResponse.data, { from_line: 2 })
         const stages = parse(stageResponse.data, { from_line: 2 })
         const ingredientLocations = parse(ingredientLocationResponse.data, { from_line: 2 })
+        const ingredientPrice = parse(ingredientPriceResponse.data, { from_line: 2 })
         state.commit('updateIngredients', ingredients)
         state.commit('updateSmoothies', smoothies.map(x => new Smoothie(x)))
         state.commit('updateIngredientTrans', rawIngredientTrans)
@@ -167,6 +183,7 @@ const store = new Vuex.Store({
         state.commit('updateCourses', courses)
         state.commit('updateStages', stages)
         state.commit('updateIngredientLocations', ingredientLocations.map(x => new IngredientLocation(x)))
+        state.commit('updateIngredientPrice', ingredientPrice)
       }))
     }
   }
