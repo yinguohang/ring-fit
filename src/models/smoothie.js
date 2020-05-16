@@ -14,6 +14,8 @@ export class Smoothie {
   effect;
   world;
   description;
+  effect1;
+  effect2;
   constructor (rawArray) {
     this.id = rawArray[0]
     this.name = rawArray[1]
@@ -26,5 +28,8 @@ export class Smoothie {
     this.effect = rawArray[9]
     this.world = parseInt(rawArray[10])
     this.description = rawArray[11]
+    this.scenario = rawArray[12]
+    this.effect1 = rawArray[14]
+    this.effect2 = rawArray[15]
   }
 }

@@ -36,7 +36,8 @@ const messages = {
       name: 'Name',
       recovery: 'Recovery',
       effect: 'Effect',
-      description: 'Description'
+      description: 'Description',
+      scenario: 'Scenario'
     }
   },
   zh: {
@@ -55,7 +56,8 @@ const messages = {
       name: '名称',
       recovery: '回复量',
       effect: '效果',
-      description: '获取方式'
+      description: '获取方式',
+      scenario: '使用时机'
     }
   }
 }

@@ -4,7 +4,7 @@
     @row-click="flip"
     :row-class-name="getRowClass"
     style="margin: auto">
-    <el-table-column>
+    <el-table-column width="50px">
       <template slot-scope="scope">
         <div>
           <el-button
@@ -29,6 +29,9 @@
     <el-table-column :label="$t('message.effect')" prop="effect"></el-table-column>
     <el-table-column :label="$t('message.world')" prop="world" sortable></el-table-column>
     <el-table-column :label="$t('message.description')" prop="description"></el-table-column>
+    <el-table-column :label="$t('message.scenario')" prop="scenario"></el-table-column>
+    <el-table-column :label="$t('message.effect') + '1'" prop="effect1"></el-table-column>
+    <el-table-column :label="$t('message.effect') + '2'" prop="effect2"></el-table-column>
   </el-table>
 </template>
 
@@ -76,7 +79,10 @@ export default {
           recovery: smoothie.recovery,
           effect: smoothie.effect,
           world: smoothie.world,
-          description: smoothie.description
+          description: smoothie.description,
+          scenario: smoothie.scenario,
+          effect1: smoothie.effect1,
+          effect2: smoothie.effect2
         }
       })
     }
