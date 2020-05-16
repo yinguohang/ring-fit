@@ -1,120 +1,120 @@
-id,name,ingredient_1,ingredient_1_count,ingredient_2,ingredient_2_count,ingredient_3,ingredient_3_count,recovery,effect,location_in_world,location_description
-0,Apple & Onion Soup,Apple,1,Onion,2,,0,0.0,[Battle] 💪Attack power⬆️ + Defense power⬆️,5,World 5 Bank Balance (Tomato and Apples Recipe).
-1,Apple & Tomato Smoothie,Apple,2,Tomato,1,,0,3.5,[Battle] Switches skill color to 💪,18,World 18 Map Treasure Chest (Red Ingredient Recipe I).
-2,Apple Smoothie,Apple,2,Strawberries,2,,0,0.0,[Battle] 💪Attack power⬆️ + Switches skill color to 💪,5,World 5 Bank Balance (Tomato and Apples Recipe).
-3,Apple-Cider Vinegar,Apple,2,Vinegar,1,,0,1.5,[Battle] 🤰Attack power⬆️,8,World 8 Dangling Overpass Treasure Chest (Lemon and ACV Recipe).
-4,Apricot Almond Milk,Apricot,2,Sugar,1,Almond Milk,1,0.0,[Battle] Switches skill color to 🤰 + Guaranteed rush,12,World 12 Clever-Trick Temple Treasure Chest (Almond Milk Recipe).
-5,Apricot Coffee,Coffee Beans,2,Apricot,2,,0,0.0,[Battle] 🤰Attack power⬆️⬆️ + Switches skill color to 🤰,15,World 15 Lower Road Treasure Chest (Yellow Ingredient Recipe).
-6,Apricot Smoothie,Bananas,1,Apricot,2,,0,0.0,[Battle] Switches skill color to 🤰,8,World 8 Talisman Trail Treasure Chest (Apricot Recipe).
-7,Apricot Soda,Carbonated Water,1,Apricot,2,,0,1.5,[Battle] Switches skill color to 🤰,8,World 8 Talisman Trail Treasure Chest (Apricot Recipe).
-8,Arugula Smoothie,Arugula,2,,0,,0,4.5,,13,"World 13 Map Treasure Chest (Ashitaba Smoothie Recipe, Arugula Recipe)."
-9,Ashitaba Smoothie,Bananas,1,Spinach,1,Ashitaba,1,5.0,,13,"World 13 Map Treasure Chest (Ashitaba Smoothie Recipe, Arugula Recipe)."
-10,Asparagus Onion Soup,Onion,1,Asparagus,2,,0,0.0,[Battle] 💮Attack power⬆️ + Defense power⬆️,10,World 10 Fusion Waterway Treasure Chest (Asparagus Recipe).
-11,Asparagus Smoothie,Asparagus,2,Green Tea Leaves,2,,0,0.0,[Battle] 💮Attack power⬆️ + Switches skill color to 💮,10,World 10 Fusion Waterway Treasure Chest (Asparagus Recipe).
-12,Avocado Herb Smoothie,Avocado,2,Cinnamon,2,Lemongrass,1,6.0,[Battle] 💮Attack power⬆️⬆️,20,World 20 Crate Crasher (Light-Green Ingredient Recipe II).
-13,Avocado Smoothie,Avocado,2,Celery,1,,0,4.0,[Battle] Switches skill color to 💮,20,World 20 Map Treasure Chest (Light-Green Ingredient Recipe I).
-14,Banana Shake,Bananas,3,Vanilla Ice Cream,2,,0,0.0,[Battle] 🤰Attack power⬆️⬆️ + Extra turn,15,World 15 Lower Road Treasure Chest (Yellow Ingredient Recipe).
-15,Banana Smoothie,Bananas,3,,0,,0,0.0,[Battle] 🤰Attack power⬆️,4,World 4 Sportan Swamp Treasure Chest (Basic Four-Color Recipe).
-16,Basil Mint Smoothie,Soy Milk,2,Basil,1,Mint,1,5.5,[Battle] Recharges skill,11,World 11 Dreadmill (Basil Recipe).
-17,Basil Vinegar,Vinegar,2,Basil,1,,0,3.5,[Battle] Recharges skill,11,World 11 Dreadmill (Basil Recipe).
-18,Beefsteak Plant Smoothie,Lemon,1,Beefsteak Plant,2,,0,0.0,[Battle] Switches skill color to 💮,10,World 10 Map Treasure Chest (Beefsteak Plant Smoothie Recipe).
-19,Black Tea,Black Tea Leaves,5,,0,,0,0.0,[Battle] Doubles money,15,World 15 Aerohead Road Treasure Chest (Black Tea Recipe).
-20,Black-Currant Smoothie,Black Currants,3,,0,,0,0.0,[Battle] 🦵Attack power⬆️⬆️,16,World 16 Battle Gym (Black-Currant Smoothie Recipe).
-21,Blood Orange Juice,Strawberries,1,Blood Orange,2,,0,5.5,[Battle] 💪Attack power⬆️⬆️,18,World 18 Map Treasure Chest (Red Ingredient Recipe I).
-22,Blueberry Almond Milk,Blueberries,2,Sugar,1,Almond Milk,1,0.0,[Battle] Switches skill color to 🦵 + Guaranteed rush,12,World 12 Clever-Trick Temple Treasure Chest (Almond Milk Recipe).
-23,Blueberry Smoothie,Blueberries,2,Yogurt,1,,0,0.0,[Battle] Switches skill color to 🦵,7,World 7 Swing Gate Treasure Chest (Blueberry Recipe).
-24,Blueberry Soda,Blueberries,2,Carbonated Water,1,,0,1.5,[Battle] Switches skill color to 🦵,7,World 7 Swing Gate Treasure Chest (Blueberry Recipe).
-25,Blueberry Tea,Blueberries,2,Black Tea Leaves,2,,0,0.0,[Battle] 🦵Attack power⬆️⬆️ + Switches skill color to 🦵,17,World 17 Stamina Set (Purple Ingredient Recipe II).
-26,Cabbage Soy Potage,Soy Milk,1,Cabbage,2,,0,0.0,[Course] Doubles ingredient drops,14,World 14 Bootstrap Tower (Cabbage Soy Potage Recipe).
-27,Caramel Coffee,Caramel,1,Coffee Beans,2,,0,0.0,[Battle] Defense power⬆️⬆️,14,World 14 Battle Gym (Caramel Recipe).
-28,Caramel Milk Tea,Milk,1,Caramel,2,Black Tea Leaves,1,3.0,[Battle] Defense power⬆️⬆️,14,World 14 Battle Gym (Caramel Recipe).
-29,Carrot Soup,Carrot,4,Onion,3,,0,0.0,[Battle] Doubles EXP,7,World 7 Core Crushing (Carrot Soup Recipe).
-30,Chard Smoothie,Mango,1,Chard,2,,0,3.5,[Battle] Cancels negative status effects,11,World 11 Rumbling Road Treasure Chest (Chard Recipe).
-31,Cherry Smoothie,Cherries,3,,0,,0,5.5,[Battle] Drink after being defeated to revive,18,World 18 Core Crushing (Cherry Smoothie Recipe).
-32,Chia-Seed Smoothie,Bananas,2,Mango,2,Chia Seeds,1,0.0,[Battle] Extra turn,9,World 9 Map Treasure Chest (Chia-Seed Recipe).
-33,Chia-Seed Soda,Honey,2,Carbonated Water,2,Chia Seeds,2,2.0,[Battle] Extra turn,9,World 9 Map Treasure Chest (Chia-Seed Recipe).
-34,Cinnamon & Raspberry Juice,Raspberries,2,Cinnamon,1,,0,0.0,[Battle] 💪Attack power⬆️⬆️ + Defense power⬆️,17,World 17 Bootstrap Tower (Raspberry Recipe).
-35,Cinnamon Ginger Smoothie,Ginger,2,Cinnamon,1,,0,0.0,[Battle] 🤰Attack power⬆️⬆️ + Defense power⬆️,14,World 14 Map Treasure Chest (Ginger Recipe).
-36,Cocoa,Cocoa,2,,0,,0,0.0,[Battle] Defense power⬆️,11,World 11 Map Treasure Chest (Cocoa and Hojicha Latte Recipe).
-37,Corn Potage,Milk,1,Corn,2,,0,3.0,[Battle] 🤰Attack power⬆️⬆️,14,World 14 Misty Corridor Treasure Chest (Corn Recipe).
-38,Corn Soup,Corn,3,,0,,0,0.0,[Battle] 🤰Attack power⬆️⬆️,14,World 14 Misty Corridor Treasure Chest (Corn Recipe).
-39,Cranberry Cinnamon Smoothie,Cranberries,2,Cinnamon,1,,0,0.0,[Battle] 🦵Attack power⬆️ + Defense power⬆️,16,World 16 Bank Balance (Purple Ingredient Recipe I).
-40,Cranberry Herb Smoothie,Cranberries,2,Cinnamon,1,Lemongrass,1,3.5,[Battle] 🦵Attack power⬆️⬆️,17,World 17 Stamina Set (Purple Ingredient Recipe II).
-41,Cress Smoothie,Cress,2,,0,,0,2.5,,8,World 8 Crate Crasher (Watercress Smoothie).
-42,Deep Lime Green Smoothie,Green Tea Leaves,2,Lime,2,Tatsoi,2,7.0,[Battle] 💮Attack power⬆️⬆️ + Switches skill color to 💮,35,World 35 Battle Gym (Deep Lime Green Smoothie Recipe).
-43,Deep Purple Smoothie,Grapes,2,Black Currants,2,Vine Spinach,2,7.0,[Battle] 🦵Attack power⬆️⬆️ + Switches skill color to 🦵,30,World 30 Swing Gate Treasure Chest (Deep Purple Smoothie Recipe).
-44,Deep Red Smoothie,Strawberries,2,Raspberries,2,Fennel,2,7.0,[Battle] 💪Attack power⬆️⬆️ + Switches skill color to 💪,28,World 28 Exertion River Treasure Chest (Deep Red Smoothie Recipe).
-45,Deep Yellow Smoothie,Bananas,2,Honey,2,Apricot,2,7.0,[Battle] 🤰Attack power⬆️⬆️ + Switches skill color to 🤰,37,World 37 Misty Corridor Treasure Chest (Deep Yellow Smoothie Recipe)
-46,Defense Drink,,0,,0,,0,0.0,Defense +1,49,"No Recipe, Various Rewards, General Store (💰5000, World 49)."
-47,Dragon Drink,Dragon Fruit,5,,0,,0,0.0,Level +1,13,World 13 Squattery Wheel (Dragon Drink Recipe).
-48,Fig Smoothie,Fig,2,Kale,1,,0,0.0,[Battle] 💪Attack power⬆️⬆️ + Recharges skill,18,World 18 Map Treasure Chest (Red Ingredient Recipe I).
-49,French Onion Soup,Onion,2,Cream Cheese,1,,0,0.0,[Course] Prevents monsters from appearing,18,World 18 Shivering Valley Treasure Chest (French Onion Soup Recipe).
-50,Ginger Herb Smoothie,Ginger,2,Cinnamon,1,Lemongrass,1,4.5,[Battle] 🤰Attack power⬆️⬆️,15,World 15 Lower Road Treasure Chest (Yellow Ingredient Recipe).
-51,Grape Shake,Grapes,3,Vanilla Ice Cream,3,,0,3.5,[Battle] 🦵Attack power⬆️⬆️ + Switches skill color to 🦵,17,World 17 Stamina Set (Purple Ingredient Recipe II).
-52,Grape Smoothie,Grapes,3,,0,,0,0.0,[Battle] 🦵Attack power⬆️,4,World 4 Sportan Swamp Treasure Chest (Basic Four-Color Recipe).
-53,Grapefruit Smoothie,Grapefruit,2,Fig,1,,0,0.0,[Battle] 🤰Attack power⬆️⬆️ + Recharges skill,14,World 14 Abs Set (Grapefruit Smoothie Recipe).
-54,Green Basil Smoothie,Chard,2,Basil,2,,0,11.5,[Battle] Recharges skill + Cancels negative status effects,23,World 23 Map Treasure Chest (Green Basil Smoothie Recipe).
-55,Green Mix Smoothie,Avocado,2,Celery,2,Arugula,2,4.0,[Battle] 💮Attack power⬆️ + Switches skill color to 💮,20,World 20 Crate Crasher (Light-Green Ingredient Recipe II).
-56,Green Tea,Green Tea Leaves,3,,0,,0,0.0,[Battle] 💮Attack power⬆️,4,World 4 Sportan Swamp Treasure Chest (Basic Four-Color Recipe).
-57,Guava Smoothie,Guava,3,,0,,0,4.5,[Battle] Drink after being defeated to revive,15,World 15 Upper Road Treasure Chest (Guava Smoothie Recipe).
-58,Hojicha Latte,Milk,1,Hojicha Leaves,2,,0,2.5,[Battle] Defense power⬆️,11,World 11 Map Treasure Chest (Cocoa and Hojicha Latte Recipe).
-59,Honey Lemon,Lemon,1,Honey,2,,0,0.0,[Battle] 🤰Attack power ⬆️ + Defense power⬆️,8,World 8 Dangling Overpass Treasure Chest (Lemon and ACV Recipe).
-60,Kale Smoothie,Kale,2,,0,,0,5.5,,18,World 18 Map Treasure Chest (Kale Recipe).
-61,Kefir Yogurt,Yogurt,1,Kefir Grains,2,,0,0.0,[Course] Prevents monsters from appearing,12,World 12 Monster Den Treasure Chest (Kefir Recipe).
-62,Kiwi Smoothie,Apple,1,Kiwi,2,,0,0.0,[Battle] 💮Attack power⬆️⬆️ + Recharges skill,20,World 20 Map Treasure Chest (Light-Green Ingredient Recipe I).
-63,Lavender Tea,Black Tea Leaves,2,Lavender,2,,0,0.0,[Battle] 🦵Attack power⬆️⬆️ + Recharges skill,16,World 16 Bank Balance (Purple Ingredient Recipe I).
-64,Lemon Smoothie,Bananas,2,Lemon,2,,0,0.0,[Battle] 🤰Attack power⬆️ + Switches skill color to 🤰,8,World 8 Dangling Overpass Treasure Chest (Lemon and ACV Recipe).
-65,Lettuce Milk Smoothie,Milk,2,Lettuce,1,,0,4.0,[Battle] 💮Attack power⬆️⬆️,20,World 20 Map Treasure Chest (Light-Green Ingredient Recipe I).
-66,Lime Cinnamon Smoothie,Lime,2,Cinnamon,1,,0,0.0,[Battle] 💮Attack power⬆️⬆️ + Defense power⬆️,20,World 20 Map Treasure Chest (Light-Green Ingredient Recipe I).
-67,Lime Smoothie,Lime,3,,0,,0,0.0,[Battle] 💮Attack power⬆️⬆️,20,World 20 Battle Gym (Lime Smoothie Recipe).
-68,Matcha Latte,Milk,2,Matcha Powder,1,,0,2.0,[Battle] 💮Attack power⬆️,10,World 10 Floating Waterway Treasure Chest (Matcha Latte and Melon Soda Recipe).
-69,Matcha Shake,Vanilla Ice Cream,2,Matcha Powder,2,,0,0.0,[Battle] 💮Attack power⬆️⬆️ + Guaranteed rush,22,World 22 Battle Gym (Matcha Shake Recipe).
-70,Melon Soda,Melon,2,Vanilla Ice Cream,1,Carbonated Water,1,2.0,[Battle] Switches skill color to 💮,10,World 10 Floating Waterway Treasure Chest (Matcha Latte and Melon Soda Recipe).
-71,Milk Pudding,Milk,2,Gelatin,1,,0,0.0,[Course] Makes jogging and knee lifts easier,4,World 4 Map Treasure Chest (Milk Pudding Recipe).
-72,Mixed Chard,Mango,1,Spinach,1,Chard,2,5.5,[Battle] Cancels negative status effects,11,World 11 Rumbling Road Treasure Chest (Chard Recipe).
-73,Orange Almond Milk,Orange,2,Sugar,2,Almond Milk,2,0.0,[Battle] Guaranteed rush + Extra turn,12,World 12 Clever-Trick Temple Treasure Chest (Almond Milk Recipe).
-74,Papaya Smoothie,Orange,1,Papaya,2,,0,0.0,[Battle] Guaranteed rush,9,World 9 No-Brakes Mine (Papaya Recipe).
-75,Papaya Soda,Papaya,2,Honey,1,Carbonated Water,1,2.0,[Battle] Guaranteed rush,9,World 9 No-Brakes Mine (Papaya Recipe).
-76,Peach Shake,Peach,3,Vanilla Ice Cream,1,,0,6.5,[Battle] Drink after being defeated to revive,21,World 21 Map Treasure Chest (Peach Shake Recipe).
-77,Peach Smoothie,Peach,3,,0,,0,2.0,[Battle] Drink after being defeated to revive,6,World 6 Map Treasure Chest (Peach Smoothie Recipe).
-78,Peach Yogurt,Peach,3,Yogurt,2,,0,4.0,[Battle] Drink after being defeated to revive,9,World 9 Map Treasure Chest (Peach Yogurt Recipe).
-79,Pear Juice,Pear,3,,0,,0,0.0,[Battle] 💮Attack power⬆️⬆️ + Switches skill color to 💮,20,World 20 Crate Crasher (Light-Green Ingredient Recipe II).
-80,Persimmon Smoothie,Persimmon,4,,0,,0,0.0,[Battle] Doubles EXP,15,World 15 North Road (Persimmon Smoothie Recipe). Grab the middle blue hook at the end of Bootstrap Tower.
-81,Pineapple Ginger Juice,Pineapple,2,Ginger,1,,0,3.0,[Battle] Switches skill color to 🤰,14,World 14 Map Treasure Chest (Ginger Recipe).
-82,Pink-Grapefruit Smoothie,Pink Grapefruit,3,,0,,0,8.0,[Battle] Drink after being defeated to revive,46,World 46 Map Treasure Chest (Pink-Grapefruit Smoothie Recipe).
-83,Plum Juice,Vinegar,2,Plum,1,Sugar,1,0.0,[Battle] 💪Attack power⬆️ + Switches skill color to 💪,18,World 18 Map Treasure Chest (Red Ingredient Recipe I).
-84,Pomegranate Almond Milk,Pomegranate,2,Sugar,1,Almond Milk,1,0.0,[Battle] Switches skill color to 💪 + Guaranteed rush,12,World 12 Clever-Trick Temple Treasure Chest (Almond Milk Recipe).
-85,Pomegranate Juice,Lemon,1,Pomegranate,2,,0,0.0,[Battle] Switches skill color to 💪,5,World 5 Exertion River Treasure Chest (Pomegranate Recipe).
-86,Pomegranate Soda,Pomegranate,2,Carbonated Water,1,,0,1.0,[Battle] Switches skill color to 💪,5,World 5 Exertion River Treasure Chest (Pomegranate Recipe).
-87,Pomegranate Tea,Pomegranate,2,Black Tea Leaves,2,,0,0.0,[Battle] 💪Attack power⬆️⬆️ + Switches skill color to 💪,19,World 19 Ohohwan River Treasure Chest (Red Ingredient Recipe II).
-88,Prune & Yogurt Smoothie,Prunes,1,Yogurt,2,,0,0.0,[Battle] 🦵Attack power⬆️ + Defense power⬆️,7,World 7 Trotter's Grove Treasure Chest (Raisin and Prune Recipe).
-89,Prune Drink,Soy Milk,1,Prunes,2,,0,3.5,[Battle] 🦵Attack power⬆️,16,World 16 Bank Balance (Purple Ingredient Recipe I).
-90,Prune Smoothie,Grapes,2,Prunes,2,,0,0.0,[Battle] 🦵Attack power⬆️ + Switches skill color to 🦵,7,World 7 Trotter's Grove Treasure Chest (Raisin and Prune Recipe).
-91,Pumpkin Soup,Soy Milk,3,Pumpkin,2,,0,0.0,[Battle] Doubles money,7,World 7 Battle Gym (Pumpkin Soup Recipe).
-92,Purple Mix Smoothie,Blueberries,2,Raisins,2,Radicchio,2,3.5,[Battle] 🦵Attack power⬆️ + Switches skill color to 🦵,17,World 17 Stamina Set (Purple Ingredient Recipe II).
-93,Purple Sunset Smoothie,Blueberries,2,Radicchio,2,Lavender,2,4.5,[Battle] 🦵Attack power⬆️⬆️ + Guaranteed rush,22,World 22 Yogana Treasure Chest (Purple Sunset Smoothie Recipe).
-94,Radicchio Smoothie,Blueberries,1,Radicchio,2,,0,3.5,[Battle] Switches skill color to 🦵,16,World 16 Bank Balance (Purple Ingredient Recipe I).
-95,Raisin Milk,Milk,2,Raisins,2,,0,1.5,[Battle] 🦵Attack power⬆️,7,World 7 Trotter's Grove Treasure Chest (Raisin and Prune Recipe).
-96,Raspberry Smoothie,Raspberries,3,,0,,0,0.0,[Battle] 💪Attack power⬆️⬆️,17,World 17 Bootstrap Tower (Raspberry Recipe).
-97,Red Mix Smoothie,Apple,2,Tomato,2,Cranberries,2,5.5,[Battle] 💪Attack power⬆️ + Switches skill color to 💪,19,World 19 Ohohwan River Treasure Chest (Red Ingredient Recipe II).
-98,Red Moon Smoothie,Fig,2,Tomato,2,Parsley,2,4.5,[Battle] 💪Attack power⬆️⬆️ + Guaranteed rush,22,World 22 Exercise Paradise Treasure Chest (Red Moon Smoothie Recipe).
-99,Royal Green Smoothie,Chard,2,Basil,2,Ashitaba,2,12.0,[Battle] Recharges skill + Cancels negative status effects,25,World 25 Robo-Wrecker (Royal Green Smoothie Recipe).
-100,Sesame Smoothie,Bananas,1,White Sesame Seeds,2,,0,0.0,[Course] Doubles ingredient drops,4,World 4 Crate Crasher (Sesame Smoothie Recipe).
-101,Skill Drink,,0,,0,,0,0.0,Skill points +1,-1,-
-102,Spinach Smoothie,Spinach,2,,0,,0,1.0,,3,Clear World 3 Hopskip Corridor (Spinach Recipe).
-103,Strawberry Shake,Strawberries,3,Vanilla Ice Cream,3,,0,3.5,[Battle] 💪Attack power⬆️⬆️ + Switches skill color to 💪,19,World 19 Ohohwan River Treasure Chest (Red Ingredient Recipe II).
-104,Strawberry Smoothie,Strawberries,3,,0,,0,0.0,[Battle] 💪Attack power⬆️,4,World 4 Sportan Swamp Treasure Chest (Basic Four-Color Recipe).
-105,Strength Drink,,0,,0,,0,0.0,Attack power +1,49,"No Recipe, Various Rewards, General Store (💰5000, World 49)."
-106,Super Arugula Smoothie,Arugula,3,,0,,0,7.0,,13,"World 13 Map Treasure Chest (Ashitaba Smoothie Recipe, Arugula Recipe)."
-107,Super Ashitaba Smoothie,Bananas,2,Spinach,1,Ashitaba,1,11.0,[Battle] Recharges skill,22,World 22 Aerobic Set (Super Ashitaba Smoothie Recipe).
-108,Super Cress Smoothie,Cress,3,,0,,0,4.0,,8,World 8 Crate Crasher (Watercress Smoothie).
-109,Super Kale Smoothie,Kale,3,,0,,0,9.0,[Battle] Cancels negative status effects,18,World 18 Map Treasure Chest (Kale Recipe).
-110,Super Spinach Smoothie,Spinach,3,,0,,0,2.0,,3,Clear World 3 Hopskip Corridor (Spinach Recipe).
-111,Super Wheatgrass Smoothie,Wheatgrass,3,,0,,0,11.5,,23,World 23 Map Treasure Chest (Wheatgrass Recipe).
-112,Tomato Herb Smoothie,Tomato,2,Cinnamon,1,Lemongrass,1,3.5,[Battle] 💪Attack power⬆️⬆️,19,World 19 Ohohwan River Treasure Chest (Red Ingredient Recipe II).
-113,Tomato Smoothie,Tomato,2,Carrot,1,,0,1.0,[Battle] 💪Attack power⬆️,5,World 5 Bank Balance (Tomato and Apples Recipe).
-114,Tropical Smoothie,Pineapple,2,Mandarin Orange,2,Papaya,2,0.0,[Battle] 💪🤰🦵💮Attack power⬆️⬆️,45,World 45 Exercise Paradise Treasure Chest (Tropical Smoothie Recipe).
-115,Watermelon Smoothie,Watermelon,3,,0,,0,5.0,[Battle] Drink after being defeated to revive,12,World 12 Map Treasure Chest (Watermelon Smoothie Recipe).
-116,Wheatgrass Smoothie,Wheatgrass,2,,0,,0,8.0,,23,World 23 Map Treasure Chest (Wheatgrass Recipe).
-117,Yellow Mix Smoothie,Pineapple,2,Ginger,1,Apricot,1,3.0,[Battle] 🤰Attack power⬆️ + Switches skill color to 🤰,15,World 15 Lower Road Treasure Chest (Yellow Ingredient Recipe).
-118,Yellow Sky Smoothie,Lemon,2,Pineapple,2,Grapefruit,2,4.5,[Battle] 🤰Attack power⬆️⬆️ + Guaranteed rush,22,World 22 Judgment Pass Treasure Chest (Yellow Sky Smoothie Recipe).
+id,name,ingredient_1,ingredient_1_count,ingredient_2,ingredient_2_count,ingredient_3,ingredient_3_count,recovery,effect,location_in_world,location_description,scenario,effects_length,effect1,effect2
+0,Apple & Onion Soup,Apple,1,Onion,2,,0,0.0,[Battle] 💪Attack power⬆️ + Defense power⬆️,5,World 5 Bank Balance (Tomato and Apples Recipe).,Battle,2,UP-💪-2,DEF_UP-1
+1,Apple & Tomato Smoothie,Apple,2,Tomato,1,,0,3.5,[Battle] Switches skill color to 💪,18,World 18 Map Treasure Chest (Red Ingredient Recipe I).,Battle,1,SWITCH-💪,
+2,Apple Smoothie,Apple,2,Strawberries,2,,0,0.0,[Battle] 💪Attack power⬆️ + Switches skill color to 💪,5,World 5 Bank Balance (Tomato and Apples Recipe).,Battle,2,UP-💪-2,SWITCH-💪
+3,Apple-Cider Vinegar,Apple,2,Vinegar,1,,0,1.5,[Battle] 🤰Attack power⬆️,8,World 8 Dangling Overpass Treasure Chest (Lemon and ACV Recipe).,Battle,1,UP-🤰-2,
+4,Apricot Almond Milk,Apricot,2,Sugar,1,Almond Milk,1,0.0,[Battle] Switches skill color to 🤰 + Guaranteed rush,12,World 12 Clever-Trick Temple Treasure Chest (Almond Milk Recipe).,Battle,2,SWITCH-🤰,GUARANTEED_RUSH
+5,Apricot Coffee,Coffee Beans,2,Apricot,2,,0,0.0,[Battle] 🤰Attack power⬆️⬆️ + Switches skill color to 🤰,15,World 15 Lower Road Treasure Chest (Yellow Ingredient Recipe).,Battle,2,UP-🤰-2,SWITCH-🤰
+6,Apricot Smoothie,Bananas,1,Apricot,2,,0,0.0,[Battle] Switches skill color to 🤰,8,World 8 Talisman Trail Treasure Chest (Apricot Recipe).,Battle,1,SWITCH-🤰,
+7,Apricot Soda,Carbonated Water,1,Apricot,2,,0,1.5,[Battle] Switches skill color to 🤰,8,World 8 Talisman Trail Treasure Chest (Apricot Recipe).,Battle,1,SWITCH-🤰,
+8,Arugula Smoothie,Arugula,2,,0,,0,4.5,,13,"World 13 Map Treasure Chest (Ashitaba Smoothie Recipe, Arugula Recipe).",,1,,
+9,Ashitaba Smoothie,Bananas,1,Spinach,1,Ashitaba,1,5.0,,13,"World 13 Map Treasure Chest (Ashitaba Smoothie Recipe, Arugula Recipe).",,1,,
+10,Asparagus Onion Soup,Onion,1,Asparagus,2,,0,0.0,[Battle] 💮Attack power⬆️ + Defense power⬆️,10,World 10 Fusion Waterway Treasure Chest (Asparagus Recipe).,Battle,2,UP-💮-2,DEF_UP-1
+11,Asparagus Smoothie,Asparagus,2,Green Tea Leaves,2,,0,0.0,[Battle] 💮Attack power⬆️ + Switches skill color to 💮,10,World 10 Fusion Waterway Treasure Chest (Asparagus Recipe).,Battle,2,UP-💮-2,SWITCH-💮
+12,Avocado Herb Smoothie,Avocado,2,Cinnamon,2,Lemongrass,1,6.0,[Battle] 💮Attack power⬆️⬆️,20,World 20 Crate Crasher (Light-Green Ingredient Recipe II).,Battle,1,UP-💮-2,
+13,Avocado Smoothie,Avocado,2,Celery,1,,0,4.0,[Battle] Switches skill color to 💮,20,World 20 Map Treasure Chest (Light-Green Ingredient Recipe I).,Battle,1,SWITCH-💮,
+14,Banana Shake,Bananas,3,Vanilla Ice Cream,2,,0,0.0,[Battle] 🤰Attack power⬆️⬆️ + Extra turn,15,World 15 Lower Road Treasure Chest (Yellow Ingredient Recipe).,Battle,2,UP-🤰-2,EXTRA_TURN
+15,Banana Smoothie,Bananas,3,,0,,0,0.0,[Battle] 🤰Attack power⬆️,4,World 4 Sportan Swamp Treasure Chest (Basic Four-Color Recipe).,Battle,1,UP-🤰-2,
+16,Basil Mint Smoothie,Soy Milk,2,Basil,1,Mint,1,5.5,[Battle] Recharges skill,11,World 11 Dreadmill (Basil Recipe).,Battle,1,RECHARGE_SKILL,
+17,Basil Vinegar,Vinegar,2,Basil,1,,0,3.5,[Battle] Recharges skill,11,World 11 Dreadmill (Basil Recipe).,Battle,1,RECHARGE_SKILL,
+18,Beefsteak Plant Smoothie,Lemon,1,Beefsteak Plant,2,,0,0.0,[Battle] Switches skill color to 💮,10,World 10 Map Treasure Chest (Beefsteak Plant Smoothie Recipe).,Battle,1,SWITCH-💮,
+19,Black Tea,Black Tea Leaves,5,,0,,0,0.0,[Battle] Doubles money,15,World 15 Aerohead Road Treasure Chest (Black Tea Recipe).,Battle,1,DOUBLE_MONEY,
+20,Black-Currant Smoothie,Black Currants,3,,0,,0,0.0,[Battle] 🦵Attack power⬆️⬆️,16,World 16 Battle Gym (Black-Currant Smoothie Recipe).,Battle,1,UP-🦵-2,
+21,Blood Orange Juice,Strawberries,1,Blood Orange,2,,0,5.5,[Battle] 💪Attack power⬆️⬆️,18,World 18 Map Treasure Chest (Red Ingredient Recipe I).,Battle,1,UP-💪-2,
+22,Blueberry Almond Milk,Blueberries,2,Sugar,1,Almond Milk,1,0.0,[Battle] Switches skill color to 🦵 + Guaranteed rush,12,World 12 Clever-Trick Temple Treasure Chest (Almond Milk Recipe).,Battle,2,SWITCH-🦵,GUARANTEED_RUSH
+23,Blueberry Smoothie,Blueberries,2,Yogurt,1,,0,0.0,[Battle] Switches skill color to 🦵,7,World 7 Swing Gate Treasure Chest (Blueberry Recipe).,Battle,1,SWITCH-🦵,
+24,Blueberry Soda,Blueberries,2,Carbonated Water,1,,0,1.5,[Battle] Switches skill color to 🦵,7,World 7 Swing Gate Treasure Chest (Blueberry Recipe).,Battle,1,SWITCH-🦵,
+25,Blueberry Tea,Blueberries,2,Black Tea Leaves,2,,0,0.0,[Battle] 🦵Attack power⬆️⬆️ + Switches skill color to 🦵,17,World 17 Stamina Set (Purple Ingredient Recipe II).,Battle,2,UP-🦵-2,SWITCH-🦵
+26,Cabbage Soy Potage,Soy Milk,1,Cabbage,2,,0,0.0,[Course] Doubles ingredient drops,14,World 14 Bootstrap Tower (Cabbage Soy Potage Recipe).,Course,1,DOUBLE_INGREDIENT DROPS,
+27,Caramel Coffee,Caramel,1,Coffee Beans,2,,0,0.0,[Battle] Defense power⬆️⬆️,14,World 14 Battle Gym (Caramel Recipe).,Battle,1,DEF_UP-2,
+28,Caramel Milk Tea,Milk,1,Caramel,2,Black Tea Leaves,1,3.0,[Battle] Defense power⬆️⬆️,14,World 14 Battle Gym (Caramel Recipe).,Battle,1,DEF_UP-2,
+29,Carrot Soup,Carrot,4,Onion,3,,0,0.0,[Battle] Doubles EXP,7,World 7 Core Crushing (Carrot Soup Recipe).,Battle,1,DOUBLE_EXP,
+30,Chard Smoothie,Mango,1,Chard,2,,0,3.5,[Battle] Cancels negative status effects,11,World 11 Rumbling Road Treasure Chest (Chard Recipe).,Battle,1,CLEAR_NEGATIVE,
+31,Cherry Smoothie,Cherries,3,,0,,0,5.5,[Battle] Drink after being defeated to revive,18,World 18 Core Crushing (Cherry Smoothie Recipe).,Battle,1,REVIVE,
+32,Chia-Seed Smoothie,Bananas,2,Mango,2,Chia Seeds,1,0.0,[Battle] Extra turn,9,World 9 Map Treasure Chest (Chia-Seed Recipe).,Battle,1,EXTRA_TURN,
+33,Chia-Seed Soda,Honey,2,Carbonated Water,2,Chia Seeds,2,2.0,[Battle] Extra turn,9,World 9 Map Treasure Chest (Chia-Seed Recipe).,Battle,1,EXTRA_TURN,
+34,Cinnamon & Raspberry Juice,Raspberries,2,Cinnamon,1,,0,0.0,[Battle] 💪Attack power⬆️⬆️ + Defense power⬆️,17,World 17 Bootstrap Tower (Raspberry Recipe).,Battle,2,UP-💪-2,DEF_UP-1
+35,Cinnamon Ginger Smoothie,Ginger,2,Cinnamon,1,,0,0.0,[Battle] 🤰Attack power⬆️⬆️ + Defense power⬆️,14,World 14 Map Treasure Chest (Ginger Recipe).,Battle,2,UP-🤰-2,DEF_UP-1
+36,Cocoa,Cocoa,2,,0,,0,0.0,[Battle] Defense power⬆️,11,World 11 Map Treasure Chest (Cocoa and Hojicha Latte Recipe).,Battle,1,DEF_UP-1,
+37,Corn Potage,Milk,1,Corn,2,,0,3.0,[Battle] 🤰Attack power⬆️⬆️,14,World 14 Misty Corridor Treasure Chest (Corn Recipe).,Battle,1,UP-🤰-2,
+38,Corn Soup,Corn,3,,0,,0,0.0,[Battle] 🤰Attack power⬆️⬆️,14,World 14 Misty Corridor Treasure Chest (Corn Recipe).,Battle,1,UP-🤰-2,
+39,Cranberry Cinnamon Smoothie,Cranberries,2,Cinnamon,1,,0,0.0,[Battle] 🦵Attack power⬆️ + Defense power⬆️,16,World 16 Bank Balance (Purple Ingredient Recipe I).,Battle,2,UP-🦵-2,DEF_UP-1
+40,Cranberry Herb Smoothie,Cranberries,2,Cinnamon,1,Lemongrass,1,3.5,[Battle] 🦵Attack power⬆️⬆️,17,World 17 Stamina Set (Purple Ingredient Recipe II).,Battle,1,UP-🦵-2,
+41,Cress Smoothie,Cress,2,,0,,0,2.5,,8,World 8 Crate Crasher (Watercress Smoothie).,,1,,
+42,Deep Lime Green Smoothie,Green Tea Leaves,2,Lime,2,Tatsoi,2,7.0,[Battle] 💮Attack power⬆️⬆️ + Switches skill color to 💮,35,World 35 Battle Gym (Deep Lime Green Smoothie Recipe).,Battle,2,UP-💮-2,SWITCH-💮
+43,Deep Purple Smoothie,Grapes,2,Black Currants,2,Vine Spinach,2,7.0,[Battle] 🦵Attack power⬆️⬆️ + Switches skill color to 🦵,30,World 30 Swing Gate Treasure Chest (Deep Purple Smoothie Recipe).,Battle,2,UP-🦵-2,SWITCH-🦵
+44,Deep Red Smoothie,Strawberries,2,Raspberries,2,Fennel,2,7.0,[Battle] 💪Attack power⬆️⬆️ + Switches skill color to 💪,28,World 28 Exertion River Treasure Chest (Deep Red Smoothie Recipe).,Battle,2,UP-💪-2,SWITCH-💪
+45,Deep Yellow Smoothie,Bananas,2,Honey,2,Apricot,2,7.0,[Battle] 🤰Attack power⬆️⬆️ + Switches skill color to 🤰,37,World 37 Misty Corridor Treasure Chest (Deep Yellow Smoothie Recipe),Battle,2,UP-🤰-2,SWITCH-🤰
+46,Defense Drink,,0,,0,,0,0.0,Defense +1,49,"No Recipe, Various Rewards, General Store (💰5000, World 49).",,1,ADD-DEFENSE,
+47,Dragon Drink,Dragon Fruit,5,,0,,0,0.0,Level +1,13,World 13 Squattery Wheel (Dragon Drink Recipe).,,1,ADD-LEVEL,
+48,Fig Smoothie,Fig,2,Kale,1,,0,0.0,[Battle] 💪Attack power⬆️⬆️ + Recharges skill,18,World 18 Map Treasure Chest (Red Ingredient Recipe I).,Battle,2,UP-💪-2,RECHARGE_SKILL
+49,French Onion Soup,Onion,2,Cream Cheese,1,,0,0.0,[Course] Prevents monsters from appearing,18,World 18 Shivering Valley Treasure Chest (French Onion Soup Recipe).,Course,1,PREVENT_MONSTER,
+50,Ginger Herb Smoothie,Ginger,2,Cinnamon,1,Lemongrass,1,4.5,[Battle] 🤰Attack power⬆️⬆️,15,World 15 Lower Road Treasure Chest (Yellow Ingredient Recipe).,Battle,1,UP-🤰-2,
+51,Grape Shake,Grapes,3,Vanilla Ice Cream,3,,0,3.5,[Battle] 🦵Attack power⬆️⬆️ + Switches skill color to 🦵,17,World 17 Stamina Set (Purple Ingredient Recipe II).,Battle,2,UP-🦵-2,SWITCH-🦵
+52,Grape Smoothie,Grapes,3,,0,,0,0.0,[Battle] 🦵Attack power⬆️,4,World 4 Sportan Swamp Treasure Chest (Basic Four-Color Recipe).,Battle,1,UP-🦵-2,
+53,Grapefruit Smoothie,Grapefruit,2,Fig,1,,0,0.0,[Battle] 🤰Attack power⬆️⬆️ + Recharges skill,14,World 14 Abs Set (Grapefruit Smoothie Recipe).,Battle,2,UP-🤰-2,RECHARGE_SKILL
+54,Green Basil Smoothie,Chard,2,Basil,2,,0,11.5,[Battle] Recharges skill + Cancels negative status effects,23,World 23 Map Treasure Chest (Green Basil Smoothie Recipe).,Battle,2,RECHARGE_SKILL,CLEAR_NEGATIVE
+55,Green Mix Smoothie,Avocado,2,Celery,2,Arugula,2,4.0,[Battle] 💮Attack power⬆️ + Switches skill color to 💮,20,World 20 Crate Crasher (Light-Green Ingredient Recipe II).,Battle,2,UP-💮-2,SWITCH-💮
+56,Green Tea,Green Tea Leaves,3,,0,,0,0.0,[Battle] 💮Attack power⬆️,4,World 4 Sportan Swamp Treasure Chest (Basic Four-Color Recipe).,Battle,1,UP-💮-2,
+57,Guava Smoothie,Guava,3,,0,,0,4.5,[Battle] Drink after being defeated to revive,15,World 15 Upper Road Treasure Chest (Guava Smoothie Recipe).,Battle,1,REVIVE,
+58,Hojicha Latte,Milk,1,Hojicha Leaves,2,,0,2.5,[Battle] Defense power⬆️,11,World 11 Map Treasure Chest (Cocoa and Hojicha Latte Recipe).,Battle,1,DEF_UP-1,
+59,Honey Lemon,Lemon,1,Honey,2,,0,0.0,[Battle] 🤰Attack power ⬆️ + Defense power⬆️,8,World 8 Dangling Overpass Treasure Chest (Lemon and ACV Recipe).,Battle,2,UP-🤰-2,DEF_UP-1
+60,Kale Smoothie,Kale,2,,0,,0,5.5,,18,World 18 Map Treasure Chest (Kale Recipe).,,1,,
+61,Kefir Yogurt,Yogurt,1,Kefir Grains,2,,0,0.0,[Course] Prevents monsters from appearing,12,World 12 Monster Den Treasure Chest (Kefir Recipe).,Course,1,PREVENT_MONSTER,
+62,Kiwi Smoothie,Apple,1,Kiwi,2,,0,0.0,[Battle] 💮Attack power⬆️⬆️ + Recharges skill,20,World 20 Map Treasure Chest (Light-Green Ingredient Recipe I).,Battle,2,UP-💮-2,RECHARGE_SKILL
+63,Lavender Tea,Black Tea Leaves,2,Lavender,2,,0,0.0,[Battle] 🦵Attack power⬆️⬆️ + Recharges skill,16,World 16 Bank Balance (Purple Ingredient Recipe I).,Battle,2,UP-🦵-2,RECHARGE_SKILL
+64,Lemon Smoothie,Bananas,2,Lemon,2,,0,0.0,[Battle] 🤰Attack power⬆️ + Switches skill color to 🤰,8,World 8 Dangling Overpass Treasure Chest (Lemon and ACV Recipe).,Battle,2,UP-🤰-2,SWITCH-🤰
+65,Lettuce Milk Smoothie,Milk,2,Lettuce,1,,0,4.0,[Battle] 💮Attack power⬆️⬆️,20,World 20 Map Treasure Chest (Light-Green Ingredient Recipe I).,Battle,1,UP-💮-2,
+66,Lime Cinnamon Smoothie,Lime,2,Cinnamon,1,,0,0.0,[Battle] 💮Attack power⬆️⬆️ + Defense power⬆️,20,World 20 Map Treasure Chest (Light-Green Ingredient Recipe I).,Battle,2,UP-💮-2,DEF_UP-1
+67,Lime Smoothie,Lime,3,,0,,0,0.0,[Battle] 💮Attack power⬆️⬆️,20,World 20 Battle Gym (Lime Smoothie Recipe).,Battle,1,UP-💮-2,
+68,Matcha Latte,Milk,2,Matcha Powder,1,,0,2.0,[Battle] 💮Attack power⬆️,10,World 10 Floating Waterway Treasure Chest (Matcha Latte and Melon Soda Recipe).,Battle,1,UP-💮-2,
+69,Matcha Shake,Vanilla Ice Cream,2,Matcha Powder,2,,0,0.0,[Battle] 💮Attack power⬆️⬆️ + Guaranteed rush,22,World 22 Battle Gym (Matcha Shake Recipe).,Battle,2,UP-💮-2,GUARANTEED_RUSH
+70,Melon Soda,Melon,2,Vanilla Ice Cream,1,Carbonated Water,1,2.0,[Battle] Switches skill color to 💮,10,World 10 Floating Waterway Treasure Chest (Matcha Latte and Melon Soda Recipe).,Battle,1,SWITCH-💮,
+71,Milk Pudding,Milk,2,Gelatin,1,,0,0.0,[Course] Makes jogging and knee lifts easier,4,World 4 Map Treasure Chest (Milk Pudding Recipe).,Course,1,EASIER,
+72,Mixed Chard,Mango,1,Spinach,1,Chard,2,5.5,[Battle] Cancels negative status effects,11,World 11 Rumbling Road Treasure Chest (Chard Recipe).,Battle,1,CLEAR_NEGATIVE,
+73,Orange Almond Milk,Orange,2,Sugar,2,Almond Milk,2,0.0,[Battle] Guaranteed rush + Extra turn,12,World 12 Clever-Trick Temple Treasure Chest (Almond Milk Recipe).,Battle,2,GUARANTEED_RUSH,EXTRA_TURN
+74,Papaya Smoothie,Orange,1,Papaya,2,,0,0.0,[Battle] Guaranteed rush,9,World 9 No-Brakes Mine (Papaya Recipe).,Battle,1,GUARANTEED_RUSH,
+75,Papaya Soda,Papaya,2,Honey,1,Carbonated Water,1,2.0,[Battle] Guaranteed rush,9,World 9 No-Brakes Mine (Papaya Recipe).,Battle,1,GUARANTEED_RUSH,
+76,Peach Shake,Peach,3,Vanilla Ice Cream,1,,0,6.5,[Battle] Drink after being defeated to revive,21,World 21 Map Treasure Chest (Peach Shake Recipe).,Battle,1,REVIVE,
+77,Peach Smoothie,Peach,3,,0,,0,2.0,[Battle] Drink after being defeated to revive,6,World 6 Map Treasure Chest (Peach Smoothie Recipe).,Battle,1,REVIVE,
+78,Peach Yogurt,Peach,3,Yogurt,2,,0,4.0,[Battle] Drink after being defeated to revive,9,World 9 Map Treasure Chest (Peach Yogurt Recipe).,Battle,1,REVIVE,
+79,Pear Juice,Pear,3,,0,,0,0.0,[Battle] 💮Attack power⬆️⬆️ + Switches skill color to 💮,20,World 20 Crate Crasher (Light-Green Ingredient Recipe II).,Battle,2,UP-💮-2,SWITCH-💮
+80,Persimmon Smoothie,Persimmon,4,,0,,0,0.0,[Battle] Doubles EXP,15,World 15 North Road (Persimmon Smoothie Recipe). Grab the middle blue hook at the end of Bootstrap Tower.,Battle,1,DOUBLE_EXP,
+81,Pineapple Ginger Juice,Pineapple,2,Ginger,1,,0,3.0,[Battle] Switches skill color to 🤰,14,World 14 Map Treasure Chest (Ginger Recipe).,Battle,1,SWITCH-🤰,
+82,Pink-Grapefruit Smoothie,Pink Grapefruit,3,,0,,0,8.0,[Battle] Drink after being defeated to revive,46,World 46 Map Treasure Chest (Pink-Grapefruit Smoothie Recipe).,Battle,1,REVIVE,
+83,Plum Juice,Vinegar,2,Plum,1,Sugar,1,0.0,[Battle] 💪Attack power⬆️ + Switches skill color to 💪,18,World 18 Map Treasure Chest (Red Ingredient Recipe I).,Battle,2,UP-💪-2,SWITCH-💪
+84,Pomegranate Almond Milk,Pomegranate,2,Sugar,1,Almond Milk,1,0.0,[Battle] Switches skill color to 💪 + Guaranteed rush,12,World 12 Clever-Trick Temple Treasure Chest (Almond Milk Recipe).,Battle,2,SWITCH-💪,GUARANTEED_RUSH
+85,Pomegranate Juice,Lemon,1,Pomegranate,2,,0,0.0,[Battle] Switches skill color to 💪,5,World 5 Exertion River Treasure Chest (Pomegranate Recipe).,Battle,1,SWITCH-💪,
+86,Pomegranate Soda,Pomegranate,2,Carbonated Water,1,,0,1.0,[Battle] Switches skill color to 💪,5,World 5 Exertion River Treasure Chest (Pomegranate Recipe).,Battle,1,SWITCH-💪,
+87,Pomegranate Tea,Pomegranate,2,Black Tea Leaves,2,,0,0.0,[Battle] 💪Attack power⬆️⬆️ + Switches skill color to 💪,19,World 19 Ohohwan River Treasure Chest (Red Ingredient Recipe II).,Battle,2,UP-💪-2,SWITCH-💪
+88,Prune & Yogurt Smoothie,Prunes,1,Yogurt,2,,0,0.0,[Battle] 🦵Attack power⬆️ + Defense power⬆️,7,World 7 Trotter's Grove Treasure Chest (Raisin and Prune Recipe).,Battle,2,UP-🦵-2,DEF_UP-1
+89,Prune Drink,Soy Milk,1,Prunes,2,,0,3.5,[Battle] 🦵Attack power⬆️,16,World 16 Bank Balance (Purple Ingredient Recipe I).,Battle,1,UP-🦵-2,
+90,Prune Smoothie,Grapes,2,Prunes,2,,0,0.0,[Battle] 🦵Attack power⬆️ + Switches skill color to 🦵,7,World 7 Trotter's Grove Treasure Chest (Raisin and Prune Recipe).,Battle,2,UP-🦵-2,SWITCH-🦵
+91,Pumpkin Soup,Soy Milk,3,Pumpkin,2,,0,0.0,[Battle] Doubles money,7,World 7 Battle Gym (Pumpkin Soup Recipe).,Battle,1,DOUBLE_MONEY,
+92,Purple Mix Smoothie,Blueberries,2,Raisins,2,Radicchio,2,3.5,[Battle] 🦵Attack power⬆️ + Switches skill color to 🦵,17,World 17 Stamina Set (Purple Ingredient Recipe II).,Battle,2,UP-🦵-2,SWITCH-🦵
+93,Purple Sunset Smoothie,Blueberries,2,Radicchio,2,Lavender,2,4.5,[Battle] 🦵Attack power⬆️⬆️ + Guaranteed rush,22,World 22 Yogana Treasure Chest (Purple Sunset Smoothie Recipe).,Battle,2,UP-🦵-2,GUARANTEED_RUSH
+94,Radicchio Smoothie,Blueberries,1,Radicchio,2,,0,3.5,[Battle] Switches skill color to 🦵,16,World 16 Bank Balance (Purple Ingredient Recipe I).,Battle,1,SWITCH-🦵,
+95,Raisin Milk,Milk,2,Raisins,2,,0,1.5,[Battle] 🦵Attack power⬆️,7,World 7 Trotter's Grove Treasure Chest (Raisin and Prune Recipe).,Battle,1,UP-🦵-2,
+96,Raspberry Smoothie,Raspberries,3,,0,,0,0.0,[Battle] 💪Attack power⬆️⬆️,17,World 17 Bootstrap Tower (Raspberry Recipe).,Battle,1,UP-💪-2,
+97,Red Mix Smoothie,Apple,2,Tomato,2,Cranberries,2,5.5,[Battle] 💪Attack power⬆️ + Switches skill color to 💪,19,World 19 Ohohwan River Treasure Chest (Red Ingredient Recipe II).,Battle,2,UP-💪-2,SWITCH-💪
+98,Red Moon Smoothie,Fig,2,Tomato,2,Parsley,2,4.5,[Battle] 💪Attack power⬆️⬆️ + Guaranteed rush,22,World 22 Exercise Paradise Treasure Chest (Red Moon Smoothie Recipe).,Battle,2,UP-💪-2,GUARANTEED_RUSH
+99,Royal Green Smoothie,Chard,2,Basil,2,Ashitaba,2,12.0,[Battle] Recharges skill + Cancels negative status effects,25,World 25 Robo-Wrecker (Royal Green Smoothie Recipe).,Battle,2,RECHARGE_SKILL,CLEAR_NEGATIVE
+100,Sesame Smoothie,Bananas,1,White Sesame Seeds,2,,0,0.0,[Course] Doubles ingredient drops,4,World 4 Crate Crasher (Sesame Smoothie Recipe).,Course,1,DOUBLE_INGREDIENT DROPS,
+101,Skill Drink,,0,,0,,0,0.0,Skill points +1,-1,-,,1,ADD-SKILL,
+102,Spinach Smoothie,Spinach,2,,0,,0,1.0,,3,Clear World 3 Hopskip Corridor (Spinach Recipe).,,1,,
+103,Strawberry Shake,Strawberries,3,Vanilla Ice Cream,3,,0,3.5,[Battle] 💪Attack power⬆️⬆️ + Switches skill color to 💪,19,World 19 Ohohwan River Treasure Chest (Red Ingredient Recipe II).,Battle,2,UP-💪-2,SWITCH-💪
+104,Strawberry Smoothie,Strawberries,3,,0,,0,0.0,[Battle] 💪Attack power⬆️,4,World 4 Sportan Swamp Treasure Chest (Basic Four-Color Recipe).,Battle,1,UP-💪-2,
+105,Strength Drink,,0,,0,,0,0.0,Attack power +1,49,"No Recipe, Various Rewards, General Store (💰5000, World 49).",,1,ADD-ATTACK,
+106,Super Arugula Smoothie,Arugula,3,,0,,0,7.0,,13,"World 13 Map Treasure Chest (Ashitaba Smoothie Recipe, Arugula Recipe).",,1,,
+107,Super Ashitaba Smoothie,Bananas,2,Spinach,1,Ashitaba,1,11.0,[Battle] Recharges skill,22,World 22 Aerobic Set (Super Ashitaba Smoothie Recipe).,Battle,1,RECHARGE_SKILL,
+108,Super Cress Smoothie,Cress,3,,0,,0,4.0,,8,World 8 Crate Crasher (Watercress Smoothie).,,1,,
+109,Super Kale Smoothie,Kale,3,,0,,0,9.0,[Battle] Cancels negative status effects,18,World 18 Map Treasure Chest (Kale Recipe).,Battle,1,CLEAR_NEGATIVE,
+110,Super Spinach Smoothie,Spinach,3,,0,,0,2.0,,3,Clear World 3 Hopskip Corridor (Spinach Recipe).,,1,,
+111,Super Wheatgrass Smoothie,Wheatgrass,3,,0,,0,11.5,,23,World 23 Map Treasure Chest (Wheatgrass Recipe).,,1,,
+112,Tomato Herb Smoothie,Tomato,2,Cinnamon,1,Lemongrass,1,3.5,[Battle] 💪Attack power⬆️⬆️,19,World 19 Ohohwan River Treasure Chest (Red Ingredient Recipe II).,Battle,1,UP-💪-2,
+113,Tomato Smoothie,Tomato,2,Carrot,1,,0,1.0,[Battle] 💪Attack power⬆️,5,World 5 Bank Balance (Tomato and Apples Recipe).,Battle,1,UP-💪-2,
+114,Tropical Smoothie,Pineapple,2,Mandarin Orange,2,Papaya,2,0.0,[Battle] 💪🤰🦵💮Attack power⬆️⬆️,45,World 45 Exercise Paradise Treasure Chest (Tropical Smoothie Recipe).,Battle,1,UP-💪-2,
+115,Watermelon Smoothie,Watermelon,3,,0,,0,5.0,[Battle] Drink after being defeated to revive,12,World 12 Map Treasure Chest (Watermelon Smoothie Recipe).,Battle,1,REVIVE,
+116,Wheatgrass Smoothie,Wheatgrass,2,,0,,0,8.0,,23,World 23 Map Treasure Chest (Wheatgrass Recipe).,,1,,
+117,Yellow Mix Smoothie,Pineapple,2,Ginger,1,Apricot,1,3.0,[Battle] 🤰Attack power⬆️ + Switches skill color to 🤰,15,World 15 Lower Road Treasure Chest (Yellow Ingredient Recipe).,Battle,2,UP-🤰-2,SWITCH-🤰
+118,Yellow Sky Smoothie,Lemon,2,Pineapple,2,Grapefruit,2,4.5,[Battle] 🤰Attack power⬆️⬆️ + Guaranteed rush,22,World 22 Judgment Pass Treasure Chest (Yellow Sky Smoothie Recipe).,Battle,2,UP-🤰-2,GUARANTEED_RUSH
