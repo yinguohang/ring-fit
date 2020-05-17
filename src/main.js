@@ -38,7 +38,8 @@ const messages = {
       recovery: 'Recovery',
       effect: 'Effect',
       description: 'Description',
-      scenario: 'Scenario'
+      scenario: 'Scenario',
+      courseDetailTitle: 'Course Detail'
     },
     effect: {
       EXTRA_TURN: 'Extra turn',
@@ -79,7 +80,8 @@ const messages = {
       recovery: '回复量',
       effect: '效果',
       description: '获取方式',
-      scenario: '使用时机'
+      scenario: '使用时机',
+      courseDetailTitle: '关卡详情'
     },
     effect: {
       EXTRA_TURN: '连续行动确定',

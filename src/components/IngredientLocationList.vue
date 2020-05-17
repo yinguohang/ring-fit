@@ -44,6 +44,16 @@
     <el-table-column
       :label="$t('message.course')"
       prop="course">
+      <template slot-scope="scope">
+        <el-popover
+          placement="bottom"
+          :title="$t('message.courseDetailTitle')"
+          width="200"
+          trigger="click"
+          :content="scope.row.courseDescription">
+          <el-button size="mini" slot="reference">{{ scope.row.course }}</el-button>
+        </el-popover>
+      </template>
     </el-table-column>
     <el-table-column
       :label="$t('message.difficulty')"
@@ -96,7 +106,8 @@ export default {
           ingredient5: ingredientLocation.ingredients[4],
           course: course,
           difficulty: this.courses[course][2],
-          difficultyColor: this.courses[course][1]
+          difficultyColor: this.courses[course][1],
+          courseDescription: this.courses[course][3]
         }
       })
     },
