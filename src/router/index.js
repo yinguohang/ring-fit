@@ -6,6 +6,7 @@ import CoursePage from '../views/CoursePage'
 import IngredientPage from '../views/IngredientPage'
 import WorldMapPage from '../views/WorldMapPage'
 import StarredPage from '../views/StarredPage'
+import AboutPage from '../views/AboutPage'
 
 Vue.use(VueRouter)
 
@@ -39,6 +40,11 @@ const routes = [
     path: '/starred',
     name: 'StarredPage',
     component: StarredPage
+  },
+  {
+    path: '/about',
+    name: 'AboutPage',
+    component: AboutPage
   }
 ]
 

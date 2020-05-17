@@ -19,6 +19,7 @@
       </el-select>
     </el-col>
     <el-table
+      :highlight-current-row=false
       :data="selectedSmoothies"
       @row-click="flip"
       :row-class-name="getRowClass"

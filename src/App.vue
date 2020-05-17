@@ -7,7 +7,8 @@
         <router-link to="/course">{{ $t('message.coursePageHeader') }}</router-link> |
         <router-link to="/ingredient/0">{{ $t('message.ingredientPageHeader') }}</router-link> |
         <router-link to="/world_map">{{ $t('message.worldMapPageHeader') }}</router-link> |
-        <router-link to="/starred">{{ $t('message.starredPageHeader') }}</router-link>
+        <router-link to="/starred">{{ $t('message.starredPageHeader') }}</router-link> |
+        <router-link to="/about">{{ $t('message.aboutPageHeader') }}</router-link>
         <single-locale-modifier style="padding-top: 5px; float: right"></single-locale-modifier>
       </div>
     </el-header>
