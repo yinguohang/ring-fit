@@ -38,6 +38,26 @@ const messages = {
       effect: 'Effect',
       description: 'Description',
       scenario: 'Scenario'
+    },
+    effect: {
+      EXTRA_TURN: 'Extra turn',
+      DOUBLE_MONEY: 'Doubles money',
+      DOUBLE_EXP: 'Doubles EXP',
+      DOUBLE_INGREDIENT: 'Doubles ingredient drops',
+      GUARANTEED_RUSH: 'Guaranteed rush',
+      PREVENT_MONSTER: 'Prevents monsters from appearing',
+      DEF_UP: 'Defense power',
+      REVIVE: 'Drink after being defeated to revive',
+      RECHARGE_SKILL: 'Recharges skill',
+      CLEAR_NEGATIVE: 'Cancels negative status effects',
+      EASIER: 'Makes jogging and knee lifts easier',
+      UP: 'Attack power',
+      SWITCH: 'Switches skill color to ',
+      ADD: 'Increase '
+    },
+    scenario: {
+      Battle: 'Battle',
+      Course: 'Course'
     }
   },
   zh: {
@@ -58,6 +78,26 @@ const messages = {
       effect: '效果',
       description: '获取方式',
       scenario: '使用时机'
+    },
+    effect: {
+      EXTRA_TURN: '连续行动确定',
+      DOUBLE_MONEY: '双倍金钱',
+      DOUBLE_EXP: '双倍经验',
+      DOUBLE_INGREDIENT: '双倍素材掉落',
+      GUARANTEED_RUSH: '疯狂连续动作确定',
+      PREVENT_MONSTER: '魔兽不再出现',
+      DEF_UP: '防御力提升',
+      REVIVE: '复活',
+      RECHARGE_SKILL: '待机回合重置',
+      CLEAR_NEGATIVE: '消除受到的负面效果',
+      EASIER: '可以轻松做到冲刺/抬腿',
+      UP: '攻击力提升',
+      SWITCH: '替换技能颜色',
+      ADD: '增加'
+    },
+    scenario: {
+      Battle: '战斗',
+      Course: '关卡'
     }
   }
 }
