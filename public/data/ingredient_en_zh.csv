@@ -9,7 +9,7 @@ id,en,zh
 7,Bananas,香蕉
 8,Basil,罗勒
 9,Beefsteak Plant,紫苏
-10,Black Currants,黑加仑子
+10,Black Currants,黑加仑
 11,Black Tea Leaves,红茶叶
 12,Blood Orange,血橙
 13,Blueberries,蓝莓
@@ -25,14 +25,14 @@ id,en,zh
 23,Cocoa,可可
 24,Coffee Beans,咖啡豆
 25,Corn,玉米
-26,Cranberries,蔓越莓
+26,Cranberries,小红莓
 27,Cream Cheese,奶油乳酪
 28,Cress,西洋菜
 29,Dragon Fruit,火龙果
 30,Fennel,茴香
-31,Fig,图
+31,Fig,无花果
 32,Gelatin,明胶
-33,Ginger,生姜
+33,Ginger,姜
 34,Grapefruit,葡萄柚
 35,Grapes,葡萄
 36,Green Tea Leaves,绿茶茶叶
@@ -66,7 +66,7 @@ id,en,zh
 64,Pomegranate,石榴
 65,Prunes,梅干
 66,Pumpkin,南瓜
-67,Radicchio,菊苣
+67,Radicchio,红菊苣
 68,Raisins,葡萄干
 69,Raspberries,山莓
 70,Soy Milk,豆浆
