@@ -25,7 +25,7 @@ id,name,name_zh
 23,Blueberry Smoothie,蓝莓冰沙
 24,Blueberry Soda,蓝莓苏打水
 25,Blueberry Tea,蓝莓茶
-26,Cabbage Soy Potage,白菜豆浆
+26,Cabbage Soy Potage,卷心菜浓汤
 27,Caramel Coffee,焦糖咖啡
 28,Caramel Milk Tea,焦糖奶茶
 29,Carrot Soup,胡萝卜汤
@@ -46,9 +46,9 @@ id,name,name_zh
 44,Deep Red Smoothie,深红色冰沙
 45,Deep Yellow Smoothie,深黄冰沙
 46,Defense Drink,防御饮料
-47,Dragon Drink,龙饮
+47,Dragon Drink,堕拉攻饮料
 48,Fig Smoothie,无花果冰沙
-49,French Onion Soup,法式洋葱汤
+49,French Onion Soup,起司洋葱汤
 50,Ginger Herb Smoothie,生姜冰沙
 51,Grape Shake,葡萄摇
 52,Grape Smoothie,葡萄冰沙
@@ -99,7 +99,7 @@ id,name,name_zh
 97,Red Mix Smoothie,红色混合奶昔
 98,Red Moon Smoothie,红月亮冰沙
 99,Royal Green Smoothie,皇家绿色奶昔
-100,Sesame Smoothie,芝麻奶昔
+100,Sesame Smoothie,芝麻果汁
 101,Skill Drink,技能饮料
 102,Spinach Smoothie,菠菜冰沙
 103,Strawberry Shake,草莓奶昔
